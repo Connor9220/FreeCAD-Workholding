@@ -8,8 +8,8 @@
 | Tormach 4 in. CNC vise | maker's CAD, free to download; no redistribution licence stated | CAD by Tormach, [source](https://tormach.com/docs/download/assetlink/asset_id/97) |
 | Tormach 5 in. CNC vise | maker's CAD, free to download; no redistribution licence stated | CAD by Tormach, [source](https://tormach.com/docs/download/assetlink/asset_id/140) |
 | Tormach 6 in. CNC vise | maker's CAD, free to download; no redistribution licence stated | CAD by Tormach, [source](https://tormach.com/docs/download/assetlink/asset_id/844) |
-| SMW Gen3 Mod Vise, 1/2 in. plate (S1327) | maker's CAD, free to download; no redistribution licence stated | CAD by Saunders Machine Works, [source](https://saundersmachineworks.com/products/modular-vise-gen3) |
-| SMW Gen3 Mod Vise, M12 plate (S1328) | maker's CAD, free to download; no redistribution licence stated | CAD by Saunders Machine Works, [source](https://saundersmachineworks.com/products/modular-vise-gen3) |
+| SMW Gen3 Mod Vise, 1/2 in. plate | maker's CAD, free to download; no redistribution licence stated | CAD by Saunders Machine Works, [source](https://saundersmachineworks.com/products/modular-vise-gen3) |
+| SMW Gen3 Mod Vise, M12 plate | maker's CAD, free to download; no redistribution licence stated | CAD by Saunders Machine Works, [source](https://saundersmachineworks.com/products/modular-vise-gen3) |
 | SMW Gen3 Hobby Mod Vise, 1/4 in. plate | maker's CAD, free to download; no redistribution licence stated | CAD by Saunders Machine Works (insert bars from the Gen3 1/2 in. model), [source](https://saundersmachineworks.com/products/modular-vise-system-hobby-gen3) |
 | SMW Gen3 Hobby Mod Vise, M6 plate | maker's CAD, free to download; no redistribution licence stated | CAD by Saunders Machine Works (insert bars from the Gen3 1/2 in. model), [source](https://saundersmachineworks.com/products/modular-vise-system-hobby-gen3) |
 
