@@ -2,31 +2,6 @@
   "format": 1,
   "items": [
     {
-      "id": "FoxAlien_Mini_Vise",
-      "kind": "vise",
-      "file": "vises/FoxAlien_Mini_Vise.FCStd",
-      "size": 30271,
-      "sha256": "0ddd8b1618068520db158374cee438b5fa6036cefceaa0855dcb34f148ef6157",
-      "label": "FoxAlien mini low profile vise",
-      "maker": "FoxAlien",
-      "model": "Mini low profile vise",
-      "licence": "free to use, change and share",
-      "attribution": "Model by thommo17 on Thangs (FoxAlien Mini Vise, 1141380); laid out as a FreeCAD CAM vise",
-      "source": "https://thangs.com/designer/thommo17/3d-model/FoxAlien%20Mini%20Vise-1141380",
-      "settings": {
-        "jawHeight": 20.01,
-        "jawPlates": [],
-        "jawSteps": [
-          "6.5,3.72"
-        ],
-        "jawWidth": 80.0,
-        "maxOpening": 125.0,
-        "schema": 1,
-        "takesParallels": true
-      },
-      "thumbnail": "thumbnails/FoxAlien_Mini_Vise.png"
-    },
-    {
       "id": "HarborFreight_Vise",
       "kind": "vise",
       "file": "vises/HarborFreight_Vise.FCStd",
@@ -46,6 +21,31 @@
         "takesParallels": true
       },
       "thumbnail": "thumbnails/HarborFreight_Vise.png"
+    },
+    {
+      "id": "Mini_Low_Profile_Vise",
+      "kind": "vise",
+      "file": "vises/Mini_Low_Profile_Vise.FCStd",
+      "size": 27073,
+      "sha256": "57be3712542a94ff75a3a321cb4725b7036fc74f2f6de28806214ef77963e961",
+      "label": "Mini low profile vise",
+      "maker": "Generic",
+      "model": "Mini low profile vise, 200 x 80 x 40 mm, aluminium; sold by FoxAlien and others",
+      "licence": "free to use, change and share",
+      "attribution": "Model by thommo17 on Thangs (FoxAlien Mini Vise, 1141380); laid out as a FreeCAD CAM vise",
+      "source": "https://thangs.com/designer/thommo17/3d-model/FoxAlien%20Mini%20Vise-1141380",
+      "settings": {
+        "jawHeight": 20.01,
+        "jawPlates": [],
+        "jawSteps": [
+          "6.5,3.72"
+        ],
+        "jawWidth": 80.0,
+        "maxOpening": 125.0,
+        "schema": 1,
+        "takesParallels": true
+      },
+      "thumbnail": "thumbnails/Mini_Low_Profile_Vise.png"
     }
   ]
 }
