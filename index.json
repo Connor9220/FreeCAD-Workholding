@@ -23,6 +23,31 @@
       "thumbnail": "thumbnails/HarborFreight_Vise.png"
     },
     {
+      "id": "Kurt_3400V",
+      "kind": "vise",
+      "file": "vises/Kurt_3400V.FCStd",
+      "size": 359766,
+      "sha256": "614c84f764e8aeae25a74bcd4f923360952dff4ae6b762b928f1787953d3b4ff",
+      "label": "Kurt 3400V vise",
+      "maker": "Kurt Workholding",
+      "model": "3400V AngLock vise",
+      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "attribution": "CAD by Kurt Workholding; laid out as a FreeCAD CAM vise",
+      "source": "https://www.kurtworkholding.com/",
+      "settings": {
+        "jawHeight": 31.37,
+        "jawPlates": [
+          "FixedJawPlate",
+          "MovingJawPlate"
+        ],
+        "jawWidth": 101.6,
+        "maxOpening": 228.6,
+        "schema": 1,
+        "takesParallels": true
+      },
+      "thumbnail": "thumbnails/Kurt_3400V.png"
+    },
+    {
       "id": "Mini_Low_Profile_Vise",
       "kind": "vise",
       "file": "vises/Mini_Low_Profile_Vise.FCStd",
@@ -46,6 +71,182 @@
         "takesParallels": true
       },
       "thumbnail": "thumbnails/Mini_Low_Profile_Vise.png"
+    },
+    {
+      "id": "SMW_ModVise_Gen3_HalfInch",
+      "kind": "vise",
+      "file": "vises/SMW_ModVise_Gen3_HalfInch.FCStd",
+      "size": 300904,
+      "sha256": "66988f9eee05b87454f9b745c10cd9eff8597e0df522cb78d8ffa782ba5104e1",
+      "label": "SMW Gen3 Mod Vise, 1/2 in. plate (S1327)",
+      "maker": "Saunders Machine Works",
+      "model": "Gen3 Mod Vise, 1/2 in. single station",
+      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "attribution": "CAD by Saunders Machine Works; laid out as a FreeCAD CAM vise",
+      "source": "https://saundersmachineworks.com/products/modular-vise-gen3",
+      "settings": {
+        "jawHeight": 4.13,
+        "jawPlates": [
+          "FixedJawPlate",
+          "MovingJawPlate"
+        ],
+        "jawSteps": [],
+        "jawWidth": 95.5,
+        "maxOpening": 300.0,
+        "takesParallels": false,
+        "schema": 1
+      },
+      "thumbnail": "thumbnails/SMW_ModVise_Gen3_HalfInch.png"
+    },
+    {
+      "id": "SMW_ModVise_Gen3_M12",
+      "kind": "vise",
+      "file": "vises/SMW_ModVise_Gen3_M12.FCStd",
+      "size": 309610,
+      "sha256": "32e1a7c350e745d615f490968ee37d5bbd497092d169eb9d23cadaaf2b2f0799",
+      "label": "SMW Gen3 Mod Vise, M12 plate (S1328)",
+      "maker": "Saunders Machine Works",
+      "model": "Gen3 Mod Vise, M12 single station",
+      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "attribution": "CAD by Saunders Machine Works; laid out as a FreeCAD CAM vise",
+      "source": "https://saundersmachineworks.com/products/modular-vise-gen3",
+      "settings": {
+        "jawHeight": 4.13,
+        "jawPlates": [
+          "FixedJawPlate",
+          "MovingJawPlate"
+        ],
+        "jawSteps": [],
+        "jawWidth": 95.5,
+        "maxOpening": 300.0,
+        "takesParallels": false,
+        "schema": 1
+      },
+      "thumbnail": "thumbnails/SMW_ModVise_Gen3_M12.png"
+    },
+    {
+      "id": "SMW_ModVise_Hobby_Gen3_M6",
+      "kind": "vise",
+      "file": "vises/SMW_ModVise_Hobby_Gen3_M6.FCStd",
+      "size": 314981,
+      "sha256": "da795150766da67cd73ac6d25dac0716a38718fcae81500c3860c91c34b41423",
+      "label": "SMW Gen3 Hobby Mod Vise, M6 plate",
+      "maker": "Saunders Machine Works",
+      "model": "Gen3 Hobby Mod Vise, M6",
+      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "attribution": "CAD by Saunders Machine Works (insert bars from the Gen3 1/2 in. model); laid out as a FreeCAD CAM vise",
+      "source": "https://saundersmachineworks.com/products/modular-vise-system-hobby-gen3",
+      "settings": {
+        "jawHeight": 4.13,
+        "jawPlates": [
+          "FixedJawPlate",
+          "MovingJawPlate"
+        ],
+        "jawSteps": [],
+        "jawWidth": 95.5,
+        "maxOpening": 200.0,
+        "takesParallels": false,
+        "schema": 1
+      },
+      "thumbnail": "thumbnails/SMW_ModVise_Hobby_Gen3_M6.png"
+    },
+    {
+      "id": "SMW_ModVise_Hobby_Gen3_QuarterInch",
+      "kind": "vise",
+      "file": "vises/SMW_ModVise_Hobby_Gen3_QuarterInch.FCStd",
+      "size": 316353,
+      "sha256": "e6f6a24a6ebf1f9c4f60708646da2afd12455143f39529a4f15081cce040751c",
+      "label": "SMW Gen3 Hobby Mod Vise, 1/4 in. plate",
+      "maker": "Saunders Machine Works",
+      "model": "Gen3 Hobby Mod Vise, 1/4 in.",
+      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "attribution": "CAD by Saunders Machine Works (insert bars from the Gen3 1/2 in. model); laid out as a FreeCAD CAM vise",
+      "source": "https://saundersmachineworks.com/products/modular-vise-system-hobby-gen3",
+      "settings": {
+        "jawHeight": 4.13,
+        "jawPlates": [
+          "FixedJawPlate",
+          "MovingJawPlate"
+        ],
+        "jawSteps": [],
+        "jawWidth": 95.5,
+        "maxOpening": 200.0,
+        "takesParallels": false,
+        "schema": 1
+      },
+      "thumbnail": "thumbnails/SMW_ModVise_Hobby_Gen3_QuarterInch.png"
+    },
+    {
+      "id": "Tormach_4in_CNC_Vise",
+      "kind": "vise",
+      "file": "vises/Tormach_4in_CNC_Vise.FCStd",
+      "size": 381553,
+      "sha256": "9cd3b9c890b9715fc7d6373bbcd00f2d7c26a493793a4e8a781567204aa7371f",
+      "label": "Tormach 4 in. CNC vise (35285)",
+      "maker": "Tormach",
+      "model": "4 in. CNC vise, 35285",
+      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "attribution": "CAD by Tormach; laid out as a FreeCAD CAM vise",
+      "source": "https://tormach.com/docs/download/assetlink/asset_id/97",
+      "settings": {
+        "jawHeight": 38.0,
+        "jawPlates": [
+          "FixedJawPlate",
+          "MovingJawPlate"
+        ],
+        "jawWidth": 102.0,
+        "maxOpening": 101.6,
+        "schema": 1,
+        "takesParallels": true
+      },
+      "thumbnail": "thumbnails/Tormach_4in_CNC_Vise.png"
+    },
+    {
+      "id": "Tormach_5in_CNC_Vise",
+      "kind": "vise",
+      "file": "vises/Tormach_5in_CNC_Vise.FCStd",
+      "size": 585924,
+      "sha256": "d611401e607b2f8ae59ac22456129d8ba831864826d7e4e9a0a82e07363dde2e",
+      "label": "Tormach 5 in. CNC vise (31759)",
+      "maker": "Tormach",
+      "model": "5 in. CNC vise, 31759",
+      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "attribution": "CAD by Tormach; laid out as a FreeCAD CAM vise",
+      "source": "https://tormach.com/docs/download/assetlink/asset_id/140",
+      "settings": {
+        "jawHeight": 36.322,
+        "jawPlates": [],
+        "jawWidth": 131.6,
+        "maxOpening": 101.6,
+        "schema": 1,
+        "takesParallels": true
+      },
+      "thumbnail": "thumbnails/Tormach_5in_CNC_Vise.png"
+    },
+    {
+      "id": "Tormach_6in_CNC_Vise",
+      "kind": "vise",
+      "file": "vises/Tormach_6in_CNC_Vise.FCStd",
+      "size": 163853,
+      "sha256": "5c4a527f6b9227296f9e0c2f2eb9d0c8bcbf91d0793ff0b0ac6010a28d6edde9",
+      "label": "Tormach 6 in. CNC vise (51739)",
+      "maker": "Tormach",
+      "model": "6 in. CNC vise, 51739",
+      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "attribution": "CAD by Tormach; laid out as a FreeCAD CAM vise",
+      "source": "https://tormach.com/docs/download/assetlink/asset_id/844",
+      "settings": {
+        "jawHeight": 48.0,
+        "jawPlates": [
+          "FixedJawPlate",
+          "MovingJawPlate"
+        ],
+        "jawWidth": 152.0,
+        "maxOpening": 150.0,
+        "schema": 1,
+        "takesParallels": true
+      },
+      "thumbnail": "thumbnails/Tormach_6in_CNC_Vise.png"
     }
   ]
 }
