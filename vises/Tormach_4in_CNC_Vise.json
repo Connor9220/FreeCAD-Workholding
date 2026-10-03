@@ -2,6 +2,7 @@
   "label": "Tormach 4 in. CNC vise",
   "maker": "Tormach",
   "model": "4 in. CNC vise, 35285",
+  "type": "CNC",
   "licence": "maker's CAD, free to download; no redistribution licence stated",
   "attribution": "CAD by Tormach; laid out as a FreeCAD CAM vise",
   "source": "https://tormach.com/docs/download/assetlink/asset_id/97"

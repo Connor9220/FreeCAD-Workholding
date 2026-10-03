@@ -11,7 +11,9 @@ Workholding folder, checking it against the sha256 the index gives.
 ## Adding a vise
 
 1. Put the vise's file in `vises/`, and beside it a `.json` of the same name with `label`,
-   `maker`, `model`, `licence`, `attribution` and `source`.
+   `maker`, `model`, `type`, `licence`, `attribution` and `source`. `type` is one of `CNC`,
+   `Modular`, `Low profile`, `Self-centering`, `Toolmaker's` or `Drill press`, what FreeCAD
+   filters the library by; a new one is added to `TYPES` in `tools/make_index.py` first.
 2. Only add a file whose licence lets it be shared, and say so in its `.json`.
 3. Run `python3 tools/make_index.py` and commit what it writes: `index.json` and the thumbnail.
 

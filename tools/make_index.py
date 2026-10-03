@@ -7,7 +7,7 @@ file, and commit what it writes.
     python3 tools/make_index.py
 
 A vise is a FreeCAD file laid out as FreeCAD's CAM workbench takes it, and a .json of the same
-name beside it: label, maker, model, licence, attribution and source. A file that holds Python,
+name beside it: label, maker, model, type, licence, attribution and source. A file that holds Python,
 run when it is opened, is refused, as FreeCAD refuses it."""
 
 import hashlib
@@ -30,7 +30,9 @@ SETTINGS = {
     "TakesParallels": "takesParallels",
     "ViseSchema": "schema",
 }
-META = ("label", "maker", "model", "licence", "attribution", "source")
+META = ("label", "maker", "model", "type", "licence", "attribution", "source")
+# the kinds of vise FreeCAD filters the library by: one of these, a new one added here first
+TYPES = ("CNC", "Modular", "Low profile", "Self-centering", "Toolmaker's", "Drill press")
 
 
 def value(prop):
@@ -111,6 +113,10 @@ def main():
         missing = [k for k in META if not meta.get(k)]
         if missing:
             print("%s: its .json says nothing of %s, left out" % (name, ", ".join(missing)))
+            failed = True
+            continue
+        if meta["type"] not in TYPES:
+            print("%s: type %r is none of %s, left out" % (name, meta["type"], ", ".join(TYPES)))
             failed = True
             continue
         found = read(path)

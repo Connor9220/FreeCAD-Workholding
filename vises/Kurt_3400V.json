@@ -2,6 +2,7 @@
   "label": "Kurt 3400V vise",
   "maker": "Kurt Workholding",
   "model": "3400V AngLock vise",
+  "type": "CNC",
   "licence": "maker's CAD, free to download; no redistribution licence stated",
   "attribution": "CAD by Kurt Workholding; laid out as a FreeCAD CAM vise",
   "source": "https://www.kurtworkholding.com/"
