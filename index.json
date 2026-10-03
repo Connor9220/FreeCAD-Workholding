@@ -1,0 +1,51 @@
+{
+  "format": 1,
+  "items": [
+    {
+      "id": "FoxAlien_Mini_Vise",
+      "kind": "vise",
+      "file": "vises/FoxAlien_Mini_Vise.FCStd",
+      "size": 30271,
+      "sha256": "0ddd8b1618068520db158374cee438b5fa6036cefceaa0855dcb34f148ef6157",
+      "label": "FoxAlien mini low profile vise",
+      "maker": "FoxAlien",
+      "model": "Mini low profile vise",
+      "licence": "free to use, change and share",
+      "attribution": "Model by thommo17 on Thangs (FoxAlien Mini Vise, 1141380); laid out as a FreeCAD CAM vise",
+      "source": "https://thangs.com/designer/thommo17/3d-model/FoxAlien%20Mini%20Vise-1141380",
+      "settings": {
+        "jawHeight": 20.01,
+        "jawPlates": [],
+        "jawSteps": [
+          "6.5,3.72"
+        ],
+        "jawWidth": 80.0,
+        "maxOpening": 125.0,
+        "schema": 1,
+        "takesParallels": true
+      },
+      "thumbnail": "thumbnails/FoxAlien_Mini_Vise.png"
+    },
+    {
+      "id": "HarborFreight_Vise",
+      "kind": "vise",
+      "file": "vises/HarborFreight_Vise.FCStd",
+      "size": 387285,
+      "sha256": "317f7c7181fbd3e299e1389bf1f23d63e8d2ff97f5d0b4bac21f4d51754195b5",
+      "label": "Harbor Freight 4 in. drill press vise",
+      "maker": "Harbor Freight",
+      "model": "4 in. drill press vise",
+      "licence": "CC-BY-4.0",
+      "attribution": "Model by Koosh, Printables 609724, licensed CC BY 4.0; laid out as a FreeCAD CAM vise",
+      "source": "https://www.printables.com/model/609724",
+      "settings": {
+        "jawHeight": 26.0,
+        "jawWidth": 100.0,
+        "maxOpening": 111.0,
+        "schema": 1,
+        "takesParallels": true
+      },
+      "thumbnail": "thumbnails/HarborFreight_Vise.png"
+    }
+  ]
+}
