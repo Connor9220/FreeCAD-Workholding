@@ -28,6 +28,7 @@ SETTINGS = {
     "JawSteps": "jawSteps",
     "JawPlates": "jawPlates",
     "TakesParallels": "takesParallels",
+    "SelfCentering": "selfCentering",
     "ViseSchema": "schema",
 }
 META = ("label", "maker", "model", "type", "licence", "attribution", "source")
