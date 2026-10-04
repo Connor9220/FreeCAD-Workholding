@@ -234,8 +234,8 @@ def collect(kind, folder, thumbs):
             print("%s: no vise settings (JawHeight, MaxOpening) in it, left out" % name)
             failed = True
             continue
-        if kind == "clamp" and found["settings"].get("kind") not in ("HoldDown", "Push"):
-            print("%s: no clamp Kind (HoldDown or Push) in it, left out" % name)
+        if kind == "clamp" and found["settings"].get("kind") not in ("HoldDown", "Push", "Lever", "StrapKit"):
+            print("%s: no clamp Kind (HoldDown, Push, Lever or StrapKit) in it, left out" % name)
             failed = True
             continue
         if found["nameTable"]:
