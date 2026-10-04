@@ -401,8 +401,8 @@
       "id": "Toe_Clamp_30mm",
       "kind": "clamp",
       "file": "clamps/Toe_Clamp_30mm.FCStd",
-      "size": 167649,
-      "sha256": "8f379e0639dd1d8506a3ea983fab35e0b1779fa614c4b9f6d4b05531da36c1ab",
+      "size": 184300,
+      "sha256": "860dc7384f6ba993edadbe06b110b0faeaecc299d3183178891bb17b7e9b6074",
       "label": "Toe clamp 30 mm",
       "maker": "Billy Huddleston",
       "model": "3D-printed toe clamp, 30 mm, M6 hold-down",
@@ -414,7 +414,10 @@
         "kind": "Push",
         "width": 30.0
       },
-      "thumbnail": "thumbnails/Toe_Clamp_30mm.png"
+      "thumbnail": "thumbnails/Toe_Clamp_30mm.png",
+      "history": [
+        "8f379e0639dd1d8506a3ea983fab35e0b1779fa614c4b9f6d4b05531da36c1ab"
+      ]
     }
   ]
 }
