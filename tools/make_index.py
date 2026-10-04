@@ -6,9 +6,11 @@ file, and commit what it writes.
 
     python3 tools/make_index.py
 
-A vise or a clamp is a FreeCAD file laid out as FreeCAD's CAM workbench takes it, and a .json of
-the same name beside it: label, maker, model, type, licence, attribution and source. A file that holds Python,
-run when it is opened, is refused, as FreeCAD refuses it."""
+A vise or a clamp is a FreeCAD file laid out as FreeCAD's CAM workbench takes it, stamped with
+what it is and where it was published by tools/stamp.py: its label, maker, model, type, licence,
+attribution and source, the library and its id there. The file says it all of itself; a file not
+stamped, or stamped for another library or id, is left out. A file that holds Python, run when it
+is opened, is refused, as FreeCAD refuses it."""
 
 import hashlib
 import json
@@ -17,6 +19,9 @@ import sys
 import zipfile
 
 from xml.etree import ElementTree
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import stamp  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FORMAT = 1
@@ -145,16 +150,23 @@ def collect(kind, folder, thumbs):
             continue
         stem = name[: -len(".FCStd")]
         path = os.path.join(vises, name)
-        meta_path = os.path.join(vises, stem + ".json")
-        if not os.path.exists(meta_path):
-            print("%s: no %s.json beside it, left out" % (name, stem))
+        with zipfile.ZipFile(path) as archive:
+            try:
+                meta = stamp.read(archive.read("Document.xml").decode("utf-8"))
+            except ValueError as e:
+                print("%s: %s, left out" % (name, e))
+                failed = True
+                continue
+        missing = [k for k in META + ("library", "id") if not meta.get(k)]
+        if missing:
+            print("%s: not stamped with %s (tools/stamp.py), left out" % (name, ", ".join(missing)))
             failed = True
             continue
-        with open(meta_path) as f:
-            meta = json.load(f)
-        missing = [k for k in META if not meta.get(k)]
-        if missing:
-            print("%s: its .json says nothing of %s, left out" % (name, ", ".join(missing)))
+        if meta["library"] != stamp.LIBRARY or meta["id"] != stem:
+            print(
+                "%s: stamped for %s as %s, not this library as %s, left out"
+                % (name, meta["library"], meta["id"], stem)
+            )
             failed = True
             continue
         types = TYPES if kind == "vise" else CLAMP_TYPES

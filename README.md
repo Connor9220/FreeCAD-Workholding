@@ -15,11 +15,17 @@ Workholding folder, checking it against the sha256 the index gives.
 
 ## Adding a vise
 
-1. Put the vise's file in `vises/`, and beside it a `.json` of the same name with `label`,
-   `maker`, `model`, `type`, `licence`, `attribution` and `source`. `type` is one of `CNC`,
+1. Put the vise's file in `vises/` and stamp it with what it is and where it came from:
+
+       python3 tools/stamp.py vises/Some_Vise.FCStd label="Some vise" maker="..." model="..." \
+           type=CNC licence="..." attribution="..." source=https://...
+
+   The stamp goes in the file itself, an About group in its settings VarSet with the library's
+   address and the file's id here, so the file says what it is wherever it is copied. `type` is
+   one of `CNC`, `Multi-station`,
    `Modular`, `Low profile`, `Self-centering`, `Toolmaker's` or `Drill press`, what FreeCAD
    filters the library by; a new one is added to `TYPES` in `tools/make_index.py` first.
-2. Only add a file whose licence lets it be shared, and say so in its `.json`.
+2. Only add a file whose licence lets it be shared, and stamp the licence in it.
 3. Run `python3 tools/make_index.py` and commit what it writes: `index.json` and the thumbnail.
 
 ## Adding a clamp
@@ -32,5 +38,6 @@ A file holding Python, which would run when it is opened, is refused.
 
 ## Licences
 
-Each vise and clamp carries its own licence and attribution, in its `.json` and in `index.json`; see
+Each vise and clamp carries its own licence and attribution, stamped in its file and listed in
+`index.json`; see
 [LICENSES.md](LICENSES.md).
