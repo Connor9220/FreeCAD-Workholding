@@ -396,6 +396,25 @@
       "history": [
         "82b905927addf1d7b927a6d322965ee5de7b8172c51c412680fd3b7bb3e1b36f"
       ]
+    },
+    {
+      "id": "Toe_Clamp_30mm",
+      "kind": "clamp",
+      "file": "clamps/Toe_Clamp_30mm.FCStd",
+      "size": 167649,
+      "sha256": "8f379e0639dd1d8506a3ea983fab35e0b1779fa614c4b9f6d4b05531da36c1ab",
+      "label": "Toe clamp 30 mm",
+      "maker": "Billy Huddleston",
+      "model": "3D-printed toe clamp, 30 mm, M6 hold-down",
+      "type": "Toe clamp",
+      "licence": "CC BY 4.0",
+      "attribution": "Designed and 3D printed by Billy Huddleston",
+      "source": "https://github.com/Connor9220/FreeCAD-Workholding",
+      "settings": {
+        "kind": "Push",
+        "width": 30.0
+      },
+      "thumbnail": "thumbnails/Toe_Clamp_30mm.png"
     }
   ]
 }

@@ -19,6 +19,7 @@
 |---|---|---|
 | EdgeHugger clamp, Shark Boss T-nut | drawn for this library from the maker's published dimensions | Drawn from ToolQuest's published dimensions, [source](https://toolquest.net/products/edgehugger-clamp-head-4-pack) |
 | EdgeHugger clamp, Track Boss T-nut | drawn for this library from the maker's published dimensions | Drawn from ToolQuest's published dimensions, [source](https://toolquest.net/products/edgehugger-clamp-head-4-pack) |
+| Toe clamp, 30 mm (3D printed) | CC BY 4.0 | Designed and 3D printed by Billy Huddleston |
 
 Each vise was laid out as a FreeCAD CAM vise: placed in the CAM vise frame, split into body and
 moving parts, and given its settings.
