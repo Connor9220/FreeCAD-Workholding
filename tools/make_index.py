@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Write index.json for this library of FreeCAD CAM workholding: each vise in vises/, what it
-is, where it came from and under what licence, its settings, its thumbnail, and the sha256 a
-download is checked against. Plain Python, no FreeCAD needed: run it after adding or changing a
+"""Write index.json for this library of FreeCAD CAM workholding: each vise in vises/ and clamp in
+clamps/, what it is, where it came from and under what licence, its settings, its thumbnail, and
+the sha256 a download is checked against. Plain Python, no FreeCAD needed: run it after adding or changing a
 file, and commit what it writes.
 
     python3 tools/make_index.py
 
-A vise is a FreeCAD file laid out as FreeCAD's CAM workbench takes it, and a .json of the same
-name beside it: label, maker, model, type, licence, attribution and source. A file that holds Python,
+A vise or a clamp is a FreeCAD file laid out as FreeCAD's CAM workbench takes it, and a .json of
+the same name beside it: label, maker, model, type, licence, attribution and source. A file that holds Python,
 run when it is opened, is refused, as FreeCAD refuses it."""
 
 import hashlib
@@ -32,8 +32,17 @@ SETTINGS = {
     "Stations": "stations",
     "ViseSchema": "schema",
 }
+# what a clamp's settings are called in its file, and in the index
+CLAMP_SETTINGS = {
+    "Kind": "kind",
+    "Width": "width",
+    "Reach": "reach",
+    "MinStockThickness": "minStock",
+    "MaxStockThickness": "maxStock",
+}
 META = ("label", "maker", "model", "type", "licence", "attribution", "source")
 # the kinds of vise FreeCAD filters the library by: one of these, a new one added here first
+CLAMP_TYPES = ("Edge clamp", "Toe clamp", "Strap clamp", "Side clamp", "Dog")
 TYPES = (
     "CNC",
     "Multi-station",
@@ -63,8 +72,9 @@ def value(prop):
     return raw
 
 
-def read(path):
-    """What a vise's file says of itself: its objects' kinds, its settings and its thumbnail."""
+def read(path, wanted=SETTINGS):
+    """What a vise's or a clamp's file says of itself: its objects' kinds, its settings, by
+    wanted, and its thumbnail."""
     with zipfile.ZipFile(path) as archive:
         root = ElementTree.fromstring(archive.read("Document.xml"))
         thumbnail = None
@@ -88,11 +98,12 @@ def read(path):
         if kinds.get(name) != "App::VarSet":
             continue
         for p in props:
-            key = SETTINGS.get(p.get("name"))
+            key = wanted.get(p.get("name"))
             if key is not None:
                 settings[key] = value(p)
-    settings.setdefault("schema", 1)
-    settings.setdefault("takesParallels", True)
+    if wanted is SETTINGS:
+        settings.setdefault("schema", 1)
+        settings.setdefault("takesParallels", True)
     return {
         "python": python,
         "settings": settings,
@@ -103,11 +114,32 @@ def read(path):
 
 
 def main():
-    vises = os.path.join(ROOT, "vises")
     thumbs = os.path.join(ROOT, "thumbnails")
     os.makedirs(thumbs, exist_ok=True)
     items = []
     failed = False
+    for kind, folder in (("vise", "vises"), ("clamp", "clamps")):
+        found, wrong = collect(kind, folder, thumbs)
+        items += found
+        failed = failed or wrong
+    index = {"format": FORMAT, "items": items}
+    with open(os.path.join(ROOT, "index.json"), "w") as f:
+        json.dump(index, f, indent=2)
+        f.write("\n")
+    print(
+        "index.json: %d vises, %d clamps"
+        % (sum(i["kind"] == "vise" for i in items), sum(i["kind"] == "clamp" for i in items))
+    )
+    return 1 if failed else 0
+
+
+def collect(kind, folder, thumbs):
+    """The items of a kind in folder, and whether any was left out."""
+    vises = os.path.join(ROOT, folder)
+    items = []
+    failed = False
+    if not os.path.isdir(vises):
+        return items, failed
     for name in sorted(os.listdir(vises)):
         if not name.endswith(".FCStd"):
             continue
@@ -125,17 +157,24 @@ def main():
             print("%s: its .json says nothing of %s, left out" % (name, ", ".join(missing)))
             failed = True
             continue
-        if meta["type"] not in TYPES:
-            print("%s: type %r is none of %s, left out" % (name, meta["type"], ", ".join(TYPES)))
+        types = TYPES if kind == "vise" else CLAMP_TYPES
+        if meta["type"] not in types:
+            print("%s: type %r is none of %s, left out" % (name, meta["type"], ", ".join(types)))
             failed = True
             continue
-        found = read(path)
+        found = read(path, SETTINGS if kind == "vise" else CLAMP_SETTINGS)
         if found["python"]:
             print("%s: holds Python, run when opened (%s), left out" % (name, ", ".join(found["python"])))
             failed = True
             continue
-        if "maxOpening" not in found["settings"] or "jawHeight" not in found["settings"]:
+        if kind == "vise" and (
+            "maxOpening" not in found["settings"] or "jawHeight" not in found["settings"]
+        ):
             print("%s: no vise settings (JawHeight, MaxOpening) in it, left out" % name)
+            failed = True
+            continue
+        if kind == "clamp" and found["settings"].get("kind") not in ("HoldDown", "Push"):
+            print("%s: no clamp Kind (HoldDown or Push) in it, left out" % name)
             failed = True
             continue
         if found["nameTable"]:
@@ -145,8 +184,8 @@ def main():
             data = f.read()
         item = {
             "id": stem,
-            "kind": "vise",
-            "file": "vises/" + name,
+            "kind": kind,
+            "file": folder + "/" + name,
             "size": len(data),
             "sha256": hashlib.sha256(data).hexdigest(),
         }
@@ -159,12 +198,7 @@ def main():
             item["thumbnail"] = thumb
         items.append(item)
         print("%s: ok" % name)
-    index = {"format": FORMAT, "items": items}
-    with open(os.path.join(ROOT, "index.json"), "w") as f:
-        json.dump(index, f, indent=2)
-        f.write("\n")
-    print("index.json: %d vises" % len(items))
-    return 1 if failed else 0
+    return items, failed
 
 
 if __name__ == "__main__":

@@ -1,0 +1,9 @@
+{
+  "label": "EdgeHugger clamp, Track Boss T-nut",
+  "maker": "ToolQuest LLC",
+  "model": "EdgeHugger clamp head MS0170 with the Track Boss T-nut",
+  "type": "Edge clamp",
+  "licence": "drawn for this library from the maker's published dimensions",
+  "attribution": "Drawn from ToolQuest's published dimensions (clamp head, Track Boss T-nut, instructions UM0182); laid out as a FreeCAD CAM clamp",
+  "source": "https://toolquest.net/products/edgehugger-clamp-head-4-pack"
+}

@@ -305,6 +305,50 @@
         "schema": 1
       },
       "thumbnail": "thumbnails/XinDian_H54_Self_Centering_Vise.png"
+    },
+    {
+      "id": "EdgeHugger_SharkBoss",
+      "kind": "clamp",
+      "file": "clamps/EdgeHugger_SharkBoss.FCStd",
+      "size": 94494,
+      "sha256": "1114eedc864f7cfa8ff8c80ace460525a418fb1e83cc37fee75b7b8e78f6b25b",
+      "label": "EdgeHugger clamp, Shark Boss T-nut",
+      "maker": "ToolQuest LLC",
+      "model": "EdgeHugger clamp head MS0170 with the Shark Boss T-nut",
+      "type": "Edge clamp",
+      "licence": "drawn for this library from the maker's published dimensions",
+      "attribution": "Drawn from ToolQuest's published dimensions (clamp head, Shark Boss T-nut, instructions UM0182); laid out as a FreeCAD CAM clamp",
+      "source": "https://toolquest.net/products/edgehugger-clamp-head-4-pack",
+      "settings": {
+        "kind": "HoldDown",
+        "maxStock": 42.0,
+        "minStock": 6.0,
+        "reach": 6.35,
+        "width": 25.4
+      },
+      "thumbnail": "thumbnails/EdgeHugger_SharkBoss.png"
+    },
+    {
+      "id": "EdgeHugger_TrackBoss",
+      "kind": "clamp",
+      "file": "clamps/EdgeHugger_TrackBoss.FCStd",
+      "size": 94694,
+      "sha256": "82b905927addf1d7b927a6d322965ee5de7b8172c51c412680fd3b7bb3e1b36f",
+      "label": "EdgeHugger clamp, Track Boss T-nut",
+      "maker": "ToolQuest LLC",
+      "model": "EdgeHugger clamp head MS0170 with the Track Boss T-nut",
+      "type": "Edge clamp",
+      "licence": "drawn for this library from the maker's published dimensions",
+      "attribution": "Drawn from ToolQuest's published dimensions (clamp head, Track Boss T-nut, instructions UM0182); laid out as a FreeCAD CAM clamp",
+      "source": "https://toolquest.net/products/edgehugger-clamp-head-4-pack",
+      "settings": {
+        "kind": "HoldDown",
+        "maxStock": 42.0,
+        "minStock": 6.0,
+        "reach": 6.35,
+        "width": 25.4
+      },
+      "thumbnail": "thumbnails/EdgeHugger_TrackBoss.png"
     }
   ]
 }

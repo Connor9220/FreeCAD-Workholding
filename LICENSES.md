@@ -15,5 +15,10 @@
 | SMW Gen3 Hobby Mod Vise, 1/4 in. plate | maker's CAD, free to download; no redistribution licence stated | CAD by Saunders Machine Works (insert bars from the Gen3 1/2 in. model), [source](https://saundersmachineworks.com/products/modular-vise-system-hobby-gen3) |
 | SMW Gen3 Hobby Mod Vise, M6 plate | maker's CAD, free to download; no redistribution licence stated | CAD by Saunders Machine Works (insert bars from the Gen3 1/2 in. model), [source](https://saundersmachineworks.com/products/modular-vise-system-hobby-gen3) |
 
-Each was laid out as a FreeCAD CAM vise: placed in the CAM vise frame, split into body and
+| Clamp | Licence | Attribution |
+|---|---|---|
+| EdgeHugger clamp, Shark Boss T-nut | drawn for this library from the maker's published dimensions | Drawn from ToolQuest's published dimensions, [source](https://toolquest.net/products/edgehugger-clamp-head-4-pack) |
+| EdgeHugger clamp, Track Boss T-nut | drawn for this library from the maker's published dimensions | Drawn from ToolQuest's published dimensions, [source](https://toolquest.net/products/edgehugger-clamp-head-4-pack) |
+
+Each vise was laid out as a FreeCAD CAM vise: placed in the CAM vise frame, split into body and
 moving parts, and given its settings.
