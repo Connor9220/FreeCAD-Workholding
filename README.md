@@ -27,6 +27,8 @@ Workholding folder, checking it against the sha256 the index gives.
    filters the library by; a new one is added to `TYPES` in `tools/make_index.py` first.
 2. Only add a file whose licence lets it be shared, and stamp the licence in it.
 3. Run `python3 tools/make_index.py` and commit what it writes: `index.json` and the thumbnail.
+   Each item's earlier sha256s, read from this repository's history, go in its `history`: FreeCAD
+   tells a copy of an older one, an update to get, from one its user changed.
 
 ## Adding a clamp
 

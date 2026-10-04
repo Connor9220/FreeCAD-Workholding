@@ -15,6 +15,7 @@ is opened, is refused, as FreeCAD refuses it."""
 import hashlib
 import json
 import os
+import subprocess
 import sys
 import zipfile
 
@@ -118,6 +119,48 @@ def read(path, wanted=SETTINGS):
     }
 
 
+def published():
+    """Every sha256 each item's file has been published with, by id: from this repository's
+    history of index.json, and the index as it is now. FreeCAD tells a copy of an older one, an
+    update to get, from one changed by its user, which the library never published."""
+    found = {}
+
+    def add(text):
+        try:
+            index = json.loads(text)
+        except ValueError:
+            return
+        for item in index.get("items", []):
+            shas = found.setdefault(item.get("id"), [])
+            for sha in item.get("history", []) + [item.get("sha256")]:
+                if sha and sha not in shas:
+                    shas.append(sha)
+
+    try:
+        commits = subprocess.run(
+            ["git", "log", "--reverse", "--format=%H", "--", "index.json"],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            check=True,
+        ).stdout.split()
+        for commit in commits:
+            shown = subprocess.run(
+                ["git", "show", "%s:index.json" % commit],
+                cwd=ROOT,
+                capture_output=True,
+                text=True,
+            )
+            if shown.returncode == 0:
+                add(shown.stdout)
+    except (OSError, subprocess.CalledProcessError):
+        pass
+    if os.path.exists(os.path.join(ROOT, "index.json")):
+        with open(os.path.join(ROOT, "index.json")) as f:
+            add(f.read())
+    return found
+
+
 def main():
     thumbs = os.path.join(ROOT, "thumbnails")
     os.makedirs(thumbs, exist_ok=True)
@@ -127,6 +170,12 @@ def main():
         found, wrong = collect(kind, folder, thumbs)
         items += found
         failed = failed or wrong
+    # the sha256s each was published with before, newest last
+    before = published()
+    for item in items:
+        history = [sha for sha in before.get(item["id"], []) if sha != item["sha256"]]
+        if history:
+            item["history"] = history
     index = {"format": FORMAT, "items": items}
     with open(os.path.join(ROOT, "index.json"), "w") as f:
         json.dump(index, f, indent=2)
