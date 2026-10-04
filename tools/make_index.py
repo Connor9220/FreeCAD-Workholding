@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Write index.json for this library of FreeCAD CAM workholding: each vise in vises/ and clamp in
-clamps/, what it is, where it came from and under what licence, its settings, its thumbnail, and
+clamps/, what it is, where it came from and under what license, its settings, its thumbnail, and
 the sha256 a download is checked against. Plain Python, no FreeCAD needed: run it after adding or changing a
 file, and commit what it writes.
 
     python3 tools/make_index.py
 
 A vise or a clamp is a FreeCAD file laid out as FreeCAD's CAM workbench takes it, stamped with
-what it is and where it was published by tools/stamp.py: its label, maker, model, type, licence,
+what it is and where it was published by tools/stamp.py: its label, maker, model, type, license,
 attribution and source, the library and its id there. The file says it all of itself; a file not
 stamped, or stamped for another library or id, is left out. A file that holds Python, run when it
 is opened, is refused, as FreeCAD refuses it."""
@@ -46,7 +46,7 @@ CLAMP_SETTINGS = {
     "MinStockThickness": "minStock",
     "MaxStockThickness": "maxStock",
 }
-META = ("label", "maker", "model", "type", "licence", "attribution", "source")
+META = ("label", "maker", "model", "type", "license", "attribution", "source")
 # the kinds of vise FreeCAD filters the library by: one of these, a new one added here first
 CLAMP_TYPES = ("Edge clamp", "Toe clamp", "Strap clamp", "Side clamp", "Dog")
 TYPES = (

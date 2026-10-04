@@ -6,12 +6,12 @@
       "kind": "vise",
       "file": "vises/HarborFreight_Vise.FCStd",
       "size": 390247,
-      "sha256": "daa9fe87ca28322acf5bbdf3a6927e9a68d2591fcd8cc3f1d4d6127f53e5f5b3",
+      "sha256": "8a68751e50973327ca55ebf88323222bc40c49d055097a9ff9aef0fc76983b5c",
       "label": "Harbor Freight 4 in. drill press vise",
       "maker": "Harbor Freight",
       "model": "4 in. drill press vise",
       "type": "Drill press",
-      "licence": "CC-BY-4.0",
+      "license": "CC-BY-4.0",
       "attribution": "Model by Koosh, Printables 609724, licensed CC BY 4.0; laid out as a FreeCAD CAM vise",
       "source": "https://www.printables.com/model/609724",
       "settings": {
@@ -23,20 +23,21 @@
       },
       "thumbnail": "thumbnails/HarborFreight_Vise.png",
       "history": [
-        "317f7c7181fbd3e299e1389bf1f23d63e8d2ff97f5d0b4bac21f4d51754195b5"
+        "317f7c7181fbd3e299e1389bf1f23d63e8d2ff97f5d0b4bac21f4d51754195b5",
+        "daa9fe87ca28322acf5bbdf3a6927e9a68d2591fcd8cc3f1d4d6127f53e5f5b3"
       ]
     },
     {
       "id": "Kurt_3400V",
       "kind": "vise",
       "file": "vises/Kurt_3400V.FCStd",
-      "size": 363792,
-      "sha256": "6d4f58cab7a744b69b6d756345b61b640b6ed169953b4201e53bde3c2a36ae7f",
+      "size": 363793,
+      "sha256": "059eef8b8fd9117cd1e29acbe702c943de401fbc4b1f7ff01e8108538498a618",
       "label": "Kurt 3400V vise",
       "maker": "Kurt Workholding",
       "model": "3400V AngLock vise",
       "type": "CNC",
-      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "license": "maker's CAD, free to download; no redistribution license stated",
       "attribution": "CAD by Kurt Workholding; laid out as a FreeCAD CAM vise",
       "source": "https://www.kurtworkholding.com/",
       "settings": {
@@ -52,7 +53,8 @@
       },
       "thumbnail": "thumbnails/Kurt_3400V.png",
       "history": [
-        "614c84f764e8aeae25a74bcd4f923360952dff4ae6b762b928f1787953d3b4ff"
+        "614c84f764e8aeae25a74bcd4f923360952dff4ae6b762b928f1787953d3b4ff",
+        "6d4f58cab7a744b69b6d756345b61b640b6ed169953b4201e53bde3c2a36ae7f"
       ]
     },
     {
@@ -60,12 +62,12 @@
       "kind": "vise",
       "file": "vises/Kurt_DL430_DoubleLock_Vise.FCStd",
       "size": 1067679,
-      "sha256": "bcbe5762f3daa5eb279643ad3e9c49d9cba26e50065b68fee24b43057fe4531f",
+      "sha256": "a7f591457826e48c57e563f1df20e3449373870f231b7f1acce7bc6caa71ef1f",
       "label": "Kurt DL430 DoubleLock vise",
       "maker": "Kurt Workholding",
       "model": "DL430 DoubleLock vise, 4 in., two stations",
       "type": "Multi-station",
-      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "license": "maker's CAD, free to download; no redistribution license stated",
       "attribution": "CAD by Kurt Workholding; laid out as a FreeCAD CAM vise",
       "source": "https://www.kurtworkholding.com/",
       "settings": {
@@ -79,20 +81,21 @@
       },
       "thumbnail": "thumbnails/Kurt_DL430_DoubleLock_Vise.png",
       "history": [
-        "20ed3809eab254b9e68fd97940e5272f22be7250edc3660c3d5f94e4a95ca8f9"
+        "20ed3809eab254b9e68fd97940e5272f22be7250edc3660c3d5f94e4a95ca8f9",
+        "bcbe5762f3daa5eb279643ad3e9c49d9cba26e50065b68fee24b43057fe4531f"
       ]
     },
     {
       "id": "Mini_Low_Profile_Vise",
       "kind": "vise",
       "file": "vises/Mini_Low_Profile_Vise.FCStd",
-      "size": 27882,
-      "sha256": "171c3944eedd71c9b89502a54b3fe7a4833e7f6446a54d29b533f26c5fe2d6ba",
+      "size": 27883,
+      "sha256": "d634fc0c525197fa8248cd13b999c0ddee532ecf34fbee1e930e9138183d9197",
       "label": "Mini low profile vise",
       "maker": "Generic",
-      "model": "Mini low profile vise, 200 x 80 x 40 mm, aluminium; sold by FoxAlien and others",
+      "model": "Mini low profile vise, 200 x 80 x 40 mm, aluminum; sold by FoxAlien and others",
       "type": "Low profile",
-      "licence": "free to use, change and share",
+      "license": "free to use, change and share",
       "attribution": "Model by thommo17 on Thangs (FoxAlien Mini Vise, 1141380); laid out as a FreeCAD CAM vise",
       "source": "https://thangs.com/designer/thommo17/3d-model/FoxAlien%20Mini%20Vise-1141380",
       "settings": {
@@ -108,7 +111,8 @@
       },
       "thumbnail": "thumbnails/Mini_Low_Profile_Vise.png",
       "history": [
-        "57be3712542a94ff75a3a321cb4725b7036fc74f2f6de28806214ef77963e961"
+        "57be3712542a94ff75a3a321cb4725b7036fc74f2f6de28806214ef77963e961",
+        "171c3944eedd71c9b89502a54b3fe7a4833e7f6446a54d29b533f26c5fe2d6ba"
       ]
     },
     {
@@ -116,12 +120,12 @@
       "kind": "vise",
       "file": "vises/SMW_ModVise_Gen3_HalfInch.FCStd",
       "size": 303535,
-      "sha256": "4aec5b27da11099a869f4a994e244bcb56842ae84490d3718e53d905021f0fc4",
+      "sha256": "9bff8c2278e8e9743701b401cdbced221f1ca6bcc4e326aa7d854c952910a9e9",
       "label": "SMW Gen3 Mod Vise, 1/2 in. plate",
       "maker": "Saunders Machine Works",
       "model": "Gen3 Mod Vise, 1/2 in. single station",
       "type": "Modular",
-      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "license": "maker's CAD, free to download; no redistribution license stated",
       "attribution": "CAD by Saunders Machine Works; laid out as a FreeCAD CAM vise",
       "source": "https://saundersmachineworks.com/products/modular-vise-gen3",
       "settings": {
@@ -139,20 +143,21 @@
       "thumbnail": "thumbnails/SMW_ModVise_Gen3_HalfInch.png",
       "history": [
         "66988f9eee05b87454f9b745c10cd9eff8597e0df522cb78d8ffa782ba5104e1",
-        "eb69faa25d31fe4f51cde02afe7b846ef8e35d039bee344feb152145c48e8e01"
+        "eb69faa25d31fe4f51cde02afe7b846ef8e35d039bee344feb152145c48e8e01",
+        "4aec5b27da11099a869f4a994e244bcb56842ae84490d3718e53d905021f0fc4"
       ]
     },
     {
       "id": "SMW_ModVise_Gen3_M12",
       "kind": "vise",
       "file": "vises/SMW_ModVise_Gen3_M12.FCStd",
-      "size": 312367,
-      "sha256": "3cbd0794f2775e6dfbe1ac2f4bf19d80e333075bcb7cd3d5506bbd888c8185bc",
+      "size": 312368,
+      "sha256": "f77e62636447a074a7c49eb9ef9d321a8470cbac292fb19877ce25c4e5c4d91e",
       "label": "SMW Gen3 Mod Vise, M12 plate",
       "maker": "Saunders Machine Works",
       "model": "Gen3 Mod Vise, M12 single station",
       "type": "Modular",
-      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "license": "maker's CAD, free to download; no redistribution license stated",
       "attribution": "CAD by Saunders Machine Works; laid out as a FreeCAD CAM vise",
       "source": "https://saundersmachineworks.com/products/modular-vise-gen3",
       "settings": {
@@ -170,7 +175,8 @@
       "thumbnail": "thumbnails/SMW_ModVise_Gen3_M12.png",
       "history": [
         "32e1a7c350e745d615f490968ee37d5bbd497092d169eb9d23cadaaf2b2f0799",
-        "9c2fa7c5c64b8961c96f722d248adc230bd061f17a8229a3240e07217a667c51"
+        "9c2fa7c5c64b8961c96f722d248adc230bd061f17a8229a3240e07217a667c51",
+        "3cbd0794f2775e6dfbe1ac2f4bf19d80e333075bcb7cd3d5506bbd888c8185bc"
       ]
     },
     {
@@ -178,12 +184,12 @@
       "kind": "vise",
       "file": "vises/SMW_ModVise_Hobby_Gen3_M6.FCStd",
       "size": 318332,
-      "sha256": "516f64fcf6f3db966fb70c16b63b2040332aa408ea2af7c302b118e86e532985",
+      "sha256": "cae6816aed485a92d2235b3a84e73a4b83c20285d8349fe74fcf61673d6bf5ac",
       "label": "SMW Gen3 Hobby Mod Vise, M6 plate",
       "maker": "Saunders Machine Works",
       "model": "Gen3 Hobby Mod Vise, M6",
       "type": "Modular",
-      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "license": "maker's CAD, free to download; no redistribution license stated",
       "attribution": "CAD by Saunders Machine Works (insert bars from the Gen3 1/2 in. model); laid out as a FreeCAD CAM vise",
       "source": "https://saundersmachineworks.com/products/modular-vise-system-hobby-gen3",
       "settings": {
@@ -200,20 +206,21 @@
       },
       "thumbnail": "thumbnails/SMW_ModVise_Hobby_Gen3_M6.png",
       "history": [
-        "da795150766da67cd73ac6d25dac0716a38718fcae81500c3860c91c34b41423"
+        "da795150766da67cd73ac6d25dac0716a38718fcae81500c3860c91c34b41423",
+        "516f64fcf6f3db966fb70c16b63b2040332aa408ea2af7c302b118e86e532985"
       ]
     },
     {
       "id": "SMW_ModVise_Hobby_Gen3_QuarterInch",
       "kind": "vise",
       "file": "vises/SMW_ModVise_Hobby_Gen3_QuarterInch.FCStd",
-      "size": 319723,
-      "sha256": "3f9537e274ad90091b83809252d6ec66f24b35e312c3c181e5276925123fd73d",
+      "size": 319724,
+      "sha256": "004130cd5e1413afce7f535e2ec9ffbc4a375b6390cebb0e16f26079dc4340aa",
       "label": "SMW Gen3 Hobby Mod Vise, 1/4 in. plate",
       "maker": "Saunders Machine Works",
       "model": "Gen3 Hobby Mod Vise, 1/4 in.",
       "type": "Modular",
-      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "license": "maker's CAD, free to download; no redistribution license stated",
       "attribution": "CAD by Saunders Machine Works (insert bars from the Gen3 1/2 in. model); laid out as a FreeCAD CAM vise",
       "source": "https://saundersmachineworks.com/products/modular-vise-system-hobby-gen3",
       "settings": {
@@ -230,20 +237,21 @@
       },
       "thumbnail": "thumbnails/SMW_ModVise_Hobby_Gen3_QuarterInch.png",
       "history": [
-        "e6f6a24a6ebf1f9c4f60708646da2afd12455143f39529a4f15081cce040751c"
+        "e6f6a24a6ebf1f9c4f60708646da2afd12455143f39529a4f15081cce040751c",
+        "3f9537e274ad90091b83809252d6ec66f24b35e312c3c181e5276925123fd73d"
       ]
     },
     {
       "id": "Tormach_4in_CNC_Vise",
       "kind": "vise",
       "file": "vises/Tormach_4in_CNC_Vise.FCStd",
-      "size": 386307,
-      "sha256": "d5948b464b3bcd6defbd0ae21f9d7873b4d27d9241e9db6b802ff21a21ca5c35",
+      "size": 386308,
+      "sha256": "2375ae2f049625a50d9a0e640ae3ed6fbeb2bf843c0ad7b5590b38ef28859bad",
       "label": "Tormach 4 in. CNC vise",
       "maker": "Tormach",
       "model": "4 in. CNC vise, 35285",
       "type": "CNC",
-      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "license": "maker's CAD, free to download; no redistribution license stated",
       "attribution": "CAD by Tormach; laid out as a FreeCAD CAM vise",
       "source": "https://tormach.com/docs/download/assetlink/asset_id/97",
       "settings": {
@@ -260,20 +268,21 @@
       "thumbnail": "thumbnails/Tormach_4in_CNC_Vise.png",
       "history": [
         "9cd3b9c890b9715fc7d6373bbcd00f2d7c26a493793a4e8a781567204aa7371f",
-        "703d0f8309b0f4b814ff0214a888cbb7338b920649961a2039c7d819174f355f"
+        "703d0f8309b0f4b814ff0214a888cbb7338b920649961a2039c7d819174f355f",
+        "d5948b464b3bcd6defbd0ae21f9d7873b4d27d9241e9db6b802ff21a21ca5c35"
       ]
     },
     {
       "id": "Tormach_5in_CNC_Vise",
       "kind": "vise",
       "file": "vises/Tormach_5in_CNC_Vise.FCStd",
-      "size": 591426,
-      "sha256": "e338c3d4599028b2b429deaf3053172fc5e5a2d87402701e8245de1a3bc237ba",
+      "size": 591429,
+      "sha256": "52c8fe448e42c118406ae307917ac54d4aff1f2090f5fb619780307ac109a2ba",
       "label": "Tormach 5 in. CNC vise",
       "maker": "Tormach",
       "model": "5 in. CNC vise, 31759",
       "type": "CNC",
-      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "license": "maker's CAD, free to download; no redistribution license stated",
       "attribution": "CAD by Tormach; laid out as a FreeCAD CAM vise",
       "source": "https://tormach.com/docs/download/assetlink/asset_id/140",
       "settings": {
@@ -287,7 +296,8 @@
       "thumbnail": "thumbnails/Tormach_5in_CNC_Vise.png",
       "history": [
         "d611401e607b2f8ae59ac22456129d8ba831864826d7e4e9a0a82e07363dde2e",
-        "6e4b2210d2712b33309d588b94009e4b360269ecb05aa672b118f19bac5d5afc"
+        "6e4b2210d2712b33309d588b94009e4b360269ecb05aa672b118f19bac5d5afc",
+        "e338c3d4599028b2b429deaf3053172fc5e5a2d87402701e8245de1a3bc237ba"
       ]
     },
     {
@@ -295,12 +305,12 @@
       "kind": "vise",
       "file": "vises/Tormach_6in_CNC_Vise.FCStd",
       "size": 166611,
-      "sha256": "6c9319b7f83460f5145f0d24e7b4e97c6aca81c58215a608cfec89c633df80ad",
+      "sha256": "d4eaa9b3896c6955f5c6ce3db7c0ebbcb91686019a8b15d1323978a5ed5b5fde",
       "label": "Tormach 6 in. CNC vise",
       "maker": "Tormach",
       "model": "6 in. CNC vise, 51739",
       "type": "CNC",
-      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "license": "maker's CAD, free to download; no redistribution license stated",
       "attribution": "CAD by Tormach; laid out as a FreeCAD CAM vise",
       "source": "https://tormach.com/docs/download/assetlink/asset_id/844",
       "settings": {
@@ -317,20 +327,21 @@
       "thumbnail": "thumbnails/Tormach_6in_CNC_Vise.png",
       "history": [
         "5c4a527f6b9227296f9e0c2f2eb9d0c8bcbf91d0793ff0b0ac6010a28d6edde9",
-        "ffd72432837ca2d6b4887881a283c97a65762be7b64ffc47ef3c44d65083a6d8"
+        "ffd72432837ca2d6b4887881a283c97a65762be7b64ffc47ef3c44d65083a6d8",
+        "6c9319b7f83460f5145f0d24e7b4e97c6aca81c58215a608cfec89c633df80ad"
       ]
     },
     {
       "id": "XinDian_H54_Self_Centering_Vise",
       "kind": "vise",
       "file": "vises/XinDian_H54_Self_Centering_Vise.FCStd",
-      "size": 2681643,
-      "sha256": "08b2d8d694837565cd4e06c48dcc795cc1d3493d125b8d19e55baba3d0706f40",
+      "size": 2681642,
+      "sha256": "a63d18d54659695b12e3bd2399a81602a212c5b247241313f4f713adf19884f1",
       "label": "XinDian H54 self-centering vise, 8-55 mm",
       "maker": "XinDian",
       "model": "PAF-H54-8-55 self-centering vise, 75 x 54 x 44 mm; sold by GTM Manufacturing and others",
       "type": "Self-centering",
-      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "license": "maker's CAD, free to download; no redistribution license stated",
       "attribution": "CAD by XinDian; laid out as a FreeCAD CAM vise",
       "source": "https://xindianprecise.com/products/h54-self-centering-vise",
       "settings": {
@@ -344,20 +355,21 @@
       },
       "thumbnail": "thumbnails/XinDian_H54_Self_Centering_Vise.png",
       "history": [
-        "720708d3771fc4875443e8f04a7783b5ce55fd965888664a2f4bedb6177989b4"
+        "720708d3771fc4875443e8f04a7783b5ce55fd965888664a2f4bedb6177989b4",
+        "08b2d8d694837565cd4e06c48dcc795cc1d3493d125b8d19e55baba3d0706f40"
       ]
     },
     {
       "id": "EdgeHugger_SharkBoss",
       "kind": "clamp",
       "file": "clamps/EdgeHugger_SharkBoss.FCStd",
-      "size": 95762,
-      "sha256": "5e52d5b00c5c895a4ae61ac44ca2899fbcbe9e3612c777a8b3039e6fecce5158",
+      "size": 95760,
+      "sha256": "7c467df41a7d84bc85fb61236bb22913e4f8e6cd64961774ef7583a59e208af0",
       "label": "EdgeHugger clamp, Shark Boss T-nut",
       "maker": "ToolQuest LLC",
       "model": "EdgeHugger clamp head MS0170 with the Shark Boss T-nut",
       "type": "Edge clamp",
-      "licence": "drawn for this library from the maker's published dimensions",
+      "license": "drawn for this library from the maker's published dimensions",
       "attribution": "Drawn from ToolQuest's published dimensions (clamp head, Shark Boss T-nut, instructions UM0182); laid out as a FreeCAD CAM clamp",
       "source": "https://toolquest.net/products/edgehugger-clamp-head-4-pack",
       "settings": {
@@ -369,20 +381,21 @@
       },
       "thumbnail": "thumbnails/EdgeHugger_SharkBoss.png",
       "history": [
-        "1114eedc864f7cfa8ff8c80ace460525a418fb1e83cc37fee75b7b8e78f6b25b"
+        "1114eedc864f7cfa8ff8c80ace460525a418fb1e83cc37fee75b7b8e78f6b25b",
+        "5e52d5b00c5c895a4ae61ac44ca2899fbcbe9e3612c777a8b3039e6fecce5158"
       ]
     },
     {
       "id": "EdgeHugger_TrackBoss",
       "kind": "clamp",
       "file": "clamps/EdgeHugger_TrackBoss.FCStd",
-      "size": 95977,
-      "sha256": "9b3348b74007923e3e2d2c68cbca56d184bcaa1de3cec4aec5521182369c6e8e",
+      "size": 95974,
+      "sha256": "8bcf22d641e9e0830801806ea1f2466de31fce40ce03554a770cd75187a5ac6f",
       "label": "EdgeHugger clamp, Track Boss T-nut",
       "maker": "ToolQuest LLC",
       "model": "EdgeHugger clamp head MS0170 with the Track Boss T-nut",
       "type": "Edge clamp",
-      "licence": "drawn for this library from the maker's published dimensions",
+      "license": "drawn for this library from the maker's published dimensions",
       "attribution": "Drawn from ToolQuest's published dimensions (clamp head, Track Boss T-nut, instructions UM0182); laid out as a FreeCAD CAM clamp",
       "source": "https://toolquest.net/products/edgehugger-clamp-head-4-pack",
       "settings": {
@@ -394,20 +407,21 @@
       },
       "thumbnail": "thumbnails/EdgeHugger_TrackBoss.png",
       "history": [
-        "82b905927addf1d7b927a6d322965ee5de7b8172c51c412680fd3b7bb3e1b36f"
+        "82b905927addf1d7b927a6d322965ee5de7b8172c51c412680fd3b7bb3e1b36f",
+        "9b3348b74007923e3e2d2c68cbca56d184bcaa1de3cec4aec5521182369c6e8e"
       ]
     },
     {
       "id": "Toe_Clamp_30mm",
       "kind": "clamp",
       "file": "clamps/Toe_Clamp_30mm.FCStd",
-      "size": 184300,
-      "sha256": "860dc7384f6ba993edadbe06b110b0faeaecc299d3183178891bb17b7e9b6074",
+      "size": 171941,
+      "sha256": "0dd450992b1b018284dbda85b38ef8ae1e74eff1d1f90ba5854c1b20756adb80",
       "label": "Toe clamp 30 mm",
       "maker": "Billy Huddleston",
       "model": "3D-printed toe clamp, 30 mm, M6 hold-down",
       "type": "Toe clamp",
-      "licence": "CC BY 4.0",
+      "license": "CC BY 4.0",
       "attribution": "Designed and 3D printed by Billy Huddleston",
       "source": "https://github.com/Connor9220/FreeCAD-Workholding",
       "settings": {
@@ -416,7 +430,8 @@
       },
       "thumbnail": "thumbnails/Toe_Clamp_30mm.png",
       "history": [
-        "8f379e0639dd1d8506a3ea983fab35e0b1779fa614c4b9f6d4b05531da36c1ab"
+        "8f379e0639dd1d8506a3ea983fab35e0b1779fa614c4b9f6d4b05531da36c1ab",
+        "860dc7384f6ba993edadbe06b110b0faeaecc299d3183178891bb17b7e9b6074"
       ]
     }
   ]

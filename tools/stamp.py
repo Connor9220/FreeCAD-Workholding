@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Stamp a vise's or clamp's file with what it is and where it was published: its settings VarSet
-given an About group (Library, LibraryItem, Type, Maker, Model, Licence, Attribution, Source) and
+given an About group (Library, LibraryItem, Type, Maker, Model, License, Attribution, Source) and
 its part named by its label. The file says this of itself wherever it is copied; FreeCAD groups
 and finds it by it, and make_index.py reads the index from it. Plain Python, no FreeCAD needed:
-only the file's Document.xml is changed, everything else in it, colours and thumbnail, is kept
+only the file's Document.xml is changed, everything else in it, colors and thumbnail, is kept
 as it is.
 
     python3 tools/stamp.py vises/Some_Vise.FCStd label="Some vise" maker="..." model="..." \\
-        type=CNC licence="..." attribution="..." source=https://...
+        type=CNC license="..." attribution="..." source=https://...
 
 A field not given keeps what the file has. library= and id= default to this library's address
 and the file's name."""
@@ -27,7 +27,7 @@ FIELDS = (
     ("Type", "type", "Its kind, as the library sorts them"),
     ("Maker", "maker", "Who makes it"),
     ("Model", "model", "Its model"),
-    ("Licence", "licence", "The licence it is shared under"),
+    ("License", "license", "The license it is shared under"),
     ("Attribution", "attribution", "Who drew it, and from what"),
     ("Source", "source", "Where it came from"),
 )

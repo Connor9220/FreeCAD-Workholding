@@ -1,7 +1,7 @@
 # FreeCAD CAM workholding library
 
 Vises and clamps for FreeCAD's CAM workbench. Each vise is a FreeCAD file laid out the way the CAM
-workbench's Vise panel takes it: origin on the fixed jaw's face, at the top of the jaws, centred across them, +Z
+workbench's Vise panel takes it: origin on the fixed jaw's face, at the top of the jaws, centered across them, +Z
 up, the jaws closing along -Y, and a VarSet named `Vise` with its settings (`Opening`,
 `JawHeight`, `JawWidth`, `MaxOpening`, `SeatHeight`, `JawPlates`, `JawSteps`, `ViseSchema`, ...).
 
@@ -18,14 +18,14 @@ Workholding folder, checking it against the sha256 the index gives.
 1. Put the vise's file in `vises/` and stamp it with what it is and where it came from:
 
        python3 tools/stamp.py vises/Some_Vise.FCStd label="Some vise" maker="..." model="..." \
-           type=CNC licence="..." attribution="..." source=https://...
+           type=CNC license="..." attribution="..." source=https://...
 
    The stamp goes in the file itself, an About group in its settings VarSet with the library's
    address and the file's id here, so the file says what it is wherever it is copied. `type` is
    one of `CNC`, `Multi-station`,
    `Modular`, `Low profile`, `Self-centering`, `Toolmaker's` or `Drill press`, what FreeCAD
    filters the library by; a new one is added to `TYPES` in `tools/make_index.py` first.
-2. Only add a file whose licence lets it be shared, and stamp the licence in it.
+2. Only add a file whose license lets it be shared, and stamp the license in it.
 3. Run `python3 tools/make_index.py` and commit what it writes: `index.json` and the thumbnail.
    Each item's earlier sha256s, read from this repository's history, go in its `history`: FreeCAD
    tells a copy of an older one, an update to get, from one its user changed.
@@ -38,8 +38,8 @@ Workholding/Clamps folder.
 
 A file holding Python, which would run when it is opened, is refused.
 
-## Licences
+## Licenses
 
-Each vise and clamp carries its own licence and attribution, stamped in its file and listed in
+Each vise and clamp carries its own license and attribution, stamped in its file and listed in
 `index.json`; see
 [LICENSES.md](LICENSES.md).
