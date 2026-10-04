@@ -29,11 +29,20 @@ SETTINGS = {
     "JawPlates": "jawPlates",
     "TakesParallels": "takesParallels",
     "SelfCentering": "selfCentering",
+    "Stations": "stations",
     "ViseSchema": "schema",
 }
 META = ("label", "maker", "model", "type", "licence", "attribution", "source")
 # the kinds of vise FreeCAD filters the library by: one of these, a new one added here first
-TYPES = ("CNC", "Modular", "Low profile", "Self-centering", "Toolmaker's", "Drill press")
+TYPES = (
+    "CNC",
+    "Multi-station",
+    "Modular",
+    "Low profile",
+    "Self-centering",
+    "Toolmaker's",
+    "Drill press",
+)
 
 
 def value(prop):

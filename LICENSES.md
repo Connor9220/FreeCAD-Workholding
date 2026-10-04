@@ -5,6 +5,7 @@
 | Harbor Freight 4 in. drill press vise | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Model by Koosh, [Printables 609724](https://www.printables.com/model/609724) |
 | Mini low profile vise (generic, sold by FoxAlien and others) | free to use, change and share | Model by thommo17, [Thangs 1141380](https://thangs.com/designer/thommo17/3d-model/FoxAlien%20Mini%20Vise-1141380) |
 | Kurt 3400V vise | maker's CAD, free to download; no redistribution licence stated | CAD by Kurt Workholding, [source](https://www.kurtworkholding.com/) |
+| Kurt DL430 DoubleLock vise, 4 in., two stations | maker's CAD, free to download; no redistribution licence stated | CAD by Kurt Workholding, [source](https://www.kurtworkholding.com/) |
 | Tormach 4 in. CNC vise | maker's CAD, free to download; no redistribution licence stated | CAD by Tormach, [source](https://tormach.com/docs/download/assetlink/asset_id/97) |
 | Tormach 5 in. CNC vise | maker's CAD, free to download; no redistribution licence stated | CAD by Tormach, [source](https://tormach.com/docs/download/assetlink/asset_id/140) |
 | Tormach 6 in. CNC vise | maker's CAD, free to download; no redistribution licence stated | CAD by Tormach, [source](https://tormach.com/docs/download/assetlink/asset_id/844) |

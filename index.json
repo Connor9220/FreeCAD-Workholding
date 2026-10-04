@@ -50,6 +50,30 @@
       "thumbnail": "thumbnails/Kurt_3400V.png"
     },
     {
+      "id": "Kurt_DL430_DoubleLock_Vise",
+      "kind": "vise",
+      "file": "vises/Kurt_DL430_DoubleLock_Vise.FCStd",
+      "size": 1054800,
+      "sha256": "20ed3809eab254b9e68fd97940e5272f22be7250edc3660c3d5f94e4a95ca8f9",
+      "label": "Kurt DL430 DoubleLock vise",
+      "maker": "Kurt Workholding",
+      "model": "DL430 DoubleLock vise, 4 in., two stations",
+      "type": "Multi-station",
+      "licence": "maker's CAD, free to download; no redistribution licence stated",
+      "attribution": "CAD by Kurt Workholding; laid out as a FreeCAD CAM vise",
+      "source": "https://www.kurtworkholding.com/",
+      "settings": {
+        "jawHeight": 31.369,
+        "jawPlates": [],
+        "jawWidth": 100.81,
+        "maxOpening": 76.2,
+        "stations": 2,
+        "takesParallels": true,
+        "schema": 2
+      },
+      "thumbnail": "thumbnails/Kurt_DL430_DoubleLock_Vise.png"
+    },
+    {
       "id": "Mini_Low_Profile_Vise",
       "kind": "vise",
       "file": "vises/Mini_Low_Profile_Vise.FCStd",
