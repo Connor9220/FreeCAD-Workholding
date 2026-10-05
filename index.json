@@ -415,8 +415,8 @@
       "id": "StrapKit_1-2_TSlot_Smooth",
       "kind": "clamp",
       "file": "clamps/StrapKit_1-2_TSlot_Smooth.FCStd",
-      "size": 83754,
-      "sha256": "0835468d9b85cbf4d87d924f91e86415b2b824eb2adb667ff1f0c91ff0c24a7e",
+      "size": 83740,
+      "sha256": "c5f6119db6c52a186e698ddc3d6d91f42214ba67c7cc88348c1584b60fbd18ae",
       "label": "Strap clamp kit, 1/2 in. T-slot",
       "maker": "Generic",
       "model": "Step blocks and strap clamps, 1/2 in. T-slot, 3/8-16 studs, smooth",
@@ -427,14 +427,17 @@
       "settings": {
         "kind": "StrapKit"
       },
-      "thumbnail": "thumbnails/StrapKit_1-2_TSlot_Smooth.png"
+      "thumbnail": "thumbnails/StrapKit_1-2_TSlot_Smooth.png",
+      "history": [
+        "0835468d9b85cbf4d87d924f91e86415b2b824eb2adb667ff1f0c91ff0c24a7e"
+      ]
     },
     {
       "id": "StrapKit_5-8_TSlot_Smooth",
       "kind": "clamp",
       "file": "clamps/StrapKit_5-8_TSlot_Smooth.FCStd",
-      "size": 85041,
-      "sha256": "2a6b71af68686ff3a6ced557d5265385543c5b668cc02bf020bd745daf7eef19",
+      "size": 85022,
+      "sha256": "ae88a14daad37f7da8e9c2e06bf645ddd199745aec8253dac5e933e3b1098cd2",
       "label": "Strap clamp kit, 5/8 in. T-slot",
       "maker": "Generic",
       "model": "Step blocks and strap clamps, 5/8 in. T-slot, 1/2-13 studs, smooth",
@@ -445,14 +448,17 @@
       "settings": {
         "kind": "StrapKit"
       },
-      "thumbnail": "thumbnails/StrapKit_5-8_TSlot_Smooth.png"
+      "thumbnail": "thumbnails/StrapKit_5-8_TSlot_Smooth.png",
+      "history": [
+        "2a6b71af68686ff3a6ced557d5265385543c5b668cc02bf020bd745daf7eef19"
+      ]
     },
     {
       "id": "StrapKit_7-16_TSlot_Smooth",
       "kind": "clamp",
       "file": "clamps/StrapKit_7-16_TSlot_Smooth.FCStd",
-      "size": 83659,
-      "sha256": "7a19cdacfe39b0b5c875b265818623a99dba7c45e1ce049bde21afa7c10cbca0",
+      "size": 83643,
+      "sha256": "be1093d81ba744c0ddba31807128be684e0b8696d15d03963d728de024456d99",
       "label": "Strap clamp kit, 7/16 in. T-slot",
       "maker": "Generic",
       "model": "Step blocks and strap clamps, 7/16 in. T-slot, 3/8-16 studs, smooth",
@@ -463,7 +469,10 @@
       "settings": {
         "kind": "StrapKit"
       },
-      "thumbnail": "thumbnails/StrapKit_7-16_TSlot_Smooth.png"
+      "thumbnail": "thumbnails/StrapKit_7-16_TSlot_Smooth.png",
+      "history": [
+        "7a19cdacfe39b0b5c875b265818623a99dba7c45e1ce049bde21afa7c10cbca0"
+      ]
     },
     {
       "id": "TTrack_HoldDown_Clamp_Knob",
