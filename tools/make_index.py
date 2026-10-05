@@ -48,6 +48,7 @@ CLAMP_SETTINGS = {
 }
 META = ("label", "maker", "model", "type", "license", "attribution", "source")
 # the kinds of vise FreeCAD filters the library by: one of these, a new one added here first
+CLAMP_KINDS = ("HoldDown", "Push", "Lever", "StrapKit")
 CLAMP_TYPES = ("Edge clamp", "Toe clamp", "Strap clamp", "Side clamp", "Dog")
 TYPES = (
     "CNC",
@@ -92,6 +93,9 @@ def read(path, wanted=SETTINGS):
     python += sorted({p.get("type") for p in root.iter("Property") if "Python" in p.get("type", "")})
     settings = {}
     container = None
+    # a clamp's own settings, once found, not mixed with another VarSet's: a strap kit's step
+    # blocks have a Kind of their own
+    own = False
     for data in root.iter("Object"):
         name = data.get("name")
         props = data.find("Properties")
@@ -101,12 +105,17 @@ def read(path, wanted=SETTINGS):
             for p in props:
                 if p.get("name") == "Label":
                     container = value(p)
-        if kinds.get(name) != "App::VarSet":
+        if kinds.get(name) != "App::VarSet" or own:
             continue
+        found = {}
         for p in props:
             key = wanted.get(p.get("name"))
             if key is not None:
-                settings[key] = value(p)
+                found[key] = value(p)
+        if found.get("kind") in CLAMP_KINDS:
+            settings, own = found, True
+        else:
+            settings.update(found)
     if wanted is SETTINGS:
         settings.setdefault("schema", 1)
         settings.setdefault("takesParallels", True)
@@ -234,7 +243,7 @@ def collect(kind, folder, thumbs):
             print("%s: no vise settings (JawHeight, MaxOpening) in it, left out" % name)
             failed = True
             continue
-        if kind == "clamp" and found["settings"].get("kind") not in ("HoldDown", "Push", "Lever", "StrapKit"):
+        if kind == "clamp" and found["settings"].get("kind") not in CLAMP_KINDS:
             print("%s: no clamp Kind (HoldDown, Push, Lever or StrapKit) in it, left out" % name)
             failed = True
             continue

@@ -412,6 +412,60 @@
       ]
     },
     {
+      "id": "StrapKit_1-2_TSlot_Smooth",
+      "kind": "clamp",
+      "file": "clamps/StrapKit_1-2_TSlot_Smooth.FCStd",
+      "size": 83754,
+      "sha256": "0835468d9b85cbf4d87d924f91e86415b2b824eb2adb667ff1f0c91ff0c24a7e",
+      "label": "Strap clamp kit, 1/2 in. T-slot",
+      "maker": "Generic",
+      "model": "Step blocks and strap clamps, 1/2 in. T-slot, 3/8-16 studs, smooth",
+      "type": "Strap clamp",
+      "license": "drawn for this library from published dimensions",
+      "attribution": "Drawn from measured kits and published dimensions of common step block clamp kits; laid out as a FreeCAD CAM clamp",
+      "source": "https://github.com/Connor9220/FreeCAD-Workholding",
+      "settings": {
+        "kind": "StrapKit"
+      },
+      "thumbnail": "thumbnails/StrapKit_1-2_TSlot_Smooth.png"
+    },
+    {
+      "id": "StrapKit_5-8_TSlot_Smooth",
+      "kind": "clamp",
+      "file": "clamps/StrapKit_5-8_TSlot_Smooth.FCStd",
+      "size": 85041,
+      "sha256": "2a6b71af68686ff3a6ced557d5265385543c5b668cc02bf020bd745daf7eef19",
+      "label": "Strap clamp kit, 5/8 in. T-slot",
+      "maker": "Generic",
+      "model": "Step blocks and strap clamps, 5/8 in. T-slot, 1/2-13 studs, smooth",
+      "type": "Strap clamp",
+      "license": "drawn for this library from published dimensions",
+      "attribution": "Drawn from measured kits and published dimensions of common step block clamp kits; laid out as a FreeCAD CAM clamp",
+      "source": "https://github.com/Connor9220/FreeCAD-Workholding",
+      "settings": {
+        "kind": "StrapKit"
+      },
+      "thumbnail": "thumbnails/StrapKit_5-8_TSlot_Smooth.png"
+    },
+    {
+      "id": "StrapKit_7-16_TSlot_Smooth",
+      "kind": "clamp",
+      "file": "clamps/StrapKit_7-16_TSlot_Smooth.FCStd",
+      "size": 83659,
+      "sha256": "7a19cdacfe39b0b5c875b265818623a99dba7c45e1ce049bde21afa7c10cbca0",
+      "label": "Strap clamp kit, 7/16 in. T-slot",
+      "maker": "Generic",
+      "model": "Step blocks and strap clamps, 7/16 in. T-slot, 3/8-16 studs, smooth",
+      "type": "Strap clamp",
+      "license": "drawn for this library from published dimensions",
+      "attribution": "Drawn from measured kits and published dimensions of common step block clamp kits; laid out as a FreeCAD CAM clamp",
+      "source": "https://github.com/Connor9220/FreeCAD-Workholding",
+      "settings": {
+        "kind": "StrapKit"
+      },
+      "thumbnail": "thumbnails/StrapKit_7-16_TSlot_Smooth.png"
+    },
+    {
       "id": "TTrack_HoldDown_Clamp_Knob",
       "kind": "clamp",
       "file": "clamps/TTrack_HoldDown_Clamp_Knob.FCStd",

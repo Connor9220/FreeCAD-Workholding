@@ -72,6 +72,10 @@ def _settingsAndPart(xml):
             break
     if settings is None:
         raise ValueError("no settings VarSet (with an Opening or a Kind)")
+    # a strap kit is many parts, none of them the kit: its label is its settings'
+    start, end = _span(xml, spans[settings])
+    if re.search(r'<Property name="Kind"[^>]*>\s*<String value="StrapKit"', xml[start:end]):
+        return settings, settings
     part = None
     for name, kind in types.items():
         if kind != "App::Part" or name not in spans:
