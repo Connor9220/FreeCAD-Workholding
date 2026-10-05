@@ -415,8 +415,8 @@
       "id": "TTrack_HoldDown_Clamp_Knob",
       "kind": "clamp",
       "file": "clamps/TTrack_HoldDown_Clamp_Knob.FCStd",
-      "size": 60880,
-      "sha256": "f720f9486d1ea6ffe781192241d2f418fe0496a17eae165f43c4fc01f5e05624",
+      "size": 61225,
+      "sha256": "9adbef8a1a7a1eaddb07d2f327fc4cefffcacc9d16673745777341232b1853a3",
       "label": "T-track hold-down clamp, 5-1/2 in., star knob",
       "maker": "Generic",
       "model": "T-track hold-down clamp, 5-1/2 x 1-1/8 in. (caps off), 5/16-18 T-bolt, knob",
@@ -426,19 +426,22 @@
       "source": "https://github.com/Connor9220/FreeCAD-Workholding",
       "settings": {
         "kind": "Lever",
-        "maxStock": 38.1,
+        "maxStock": 25.4,
         "minStock": 6.35,
         "reach": 24.39,
         "width": 29.15
       },
-      "thumbnail": "thumbnails/TTrack_HoldDown_Clamp_Knob.png"
+      "thumbnail": "thumbnails/TTrack_HoldDown_Clamp_Knob.png",
+      "history": [
+        "f720f9486d1ea6ffe781192241d2f418fe0496a17eae165f43c4fc01f5e05624"
+      ]
     },
     {
       "id": "TTrack_HoldDown_Clamp_WingNut",
       "kind": "clamp",
       "file": "clamps/TTrack_HoldDown_Clamp_WingNut.FCStd",
-      "size": 30665,
-      "sha256": "ab1f0c942a77f8af2795e53256b162d42ad1ba395254f45cbd24fe28adc8b63a",
+      "size": 30930,
+      "sha256": "953006536679f36f5eb88583224106632f9650d3a9d6003797579d4c14caccc4",
       "label": "T-track hold-down clamp, 5-1/2 in., wing nut",
       "maker": "Generic",
       "model": "T-track hold-down clamp, 5-1/2 x 1-1/8 in. (caps off), 5/16-18 T-bolt, wing nut",
@@ -448,12 +451,15 @@
       "source": "https://github.com/Connor9220/FreeCAD-Workholding",
       "settings": {
         "kind": "Lever",
-        "maxStock": 38.1,
+        "maxStock": 25.4,
         "minStock": 6.35,
         "reach": 24.39,
         "width": 29.15
       },
-      "thumbnail": "thumbnails/TTrack_HoldDown_Clamp_WingNut.png"
+      "thumbnail": "thumbnails/TTrack_HoldDown_Clamp_WingNut.png",
+      "history": [
+        "ab1f0c942a77f8af2795e53256b162d42ad1ba395254f45cbd24fe28adc8b63a"
+      ]
     },
     {
       "id": "Toe_Clamp_30mm",
