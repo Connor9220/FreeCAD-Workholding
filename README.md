@@ -27,8 +27,11 @@ Workholding folder, checking it against the sha256 the index gives.
    filters the library by; a new one is added to `TYPES` in `tools/make_index.py` first.
 2. Only add a file whose license lets it be shared, and stamp the license in it.
 3. Run `python3 tools/make_index.py` and commit what it writes: `index.json` and the thumbnail.
-   Each item's earlier sha256s, read from this repository's history, go in its `history`: FreeCAD
-   tells a copy of an older one, an update to get, from one its user changed.
+   Each item's earlier versions, read from this repository's history, go in its `history`, oldest
+   first, each as `{"sha256", "commit"}`: the commit that published that version. FreeCAD tells a
+   copy of an older one, an update to get, from one its user changed, and can get an older one
+   back by its commit. The version committed now gets its commit when a later one replaces it, so
+   `index.json` is committed with the files, never on its own.
 
 ## Adding a clamp
 

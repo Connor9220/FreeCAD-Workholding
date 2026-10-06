@@ -128,42 +128,52 @@ def read(path, wanted=SETTINGS):
     }
 
 
+def _sha(entry):
+    """The sha256 of a history entry: a plain sha256, or {"sha256", "commit"}."""
+    return entry.get("sha256") if isinstance(entry, dict) else entry
+
+
+def _git(*args):
+    """A git command's output in this repository, None if it fails."""
+    try:
+        done = subprocess.run(["git", *args], cwd=ROOT, capture_output=True)
+    except OSError:
+        return None
+    return done.stdout if done.returncode == 0 else None
+
+
 def published():
-    """Every sha256 each item's file has been published with, by id: from this repository's
-    history of index.json, and the index as it is now. FreeCAD tells a copy of an older one, an
-    update to get, from one changed by its user, which the library never published."""
+    """Every version each item's file has been published with, by id, oldest first: its sha256
+    and the commit that published it, from this repository's history of index.json, and the
+    index as it is now. FreeCAD tells a copy of an older one, an update to get, from one changed
+    by its user, which the library never published; with the commit, it can get the older one
+    back. A version not yet committed has no commit."""
     found = {}
 
-    def add(text):
+    def add(text, commit=None):
         try:
             index = json.loads(text)
         except ValueError:
             return
         for item in index.get("items", []):
-            shas = found.setdefault(item.get("id"), [])
-            for sha in item.get("history", []) + [item.get("sha256")]:
-                if sha and sha not in shas:
-                    shas.append(sha)
+            versions = found.setdefault(item.get("id"), {})
+            for entry in item.get("history", []):
+                sha = _sha(entry)
+                if sha and versions.get(sha) is None:
+                    versions[sha] = entry.get("commit") if isinstance(entry, dict) else None
+            sha = item.get("sha256")
+            if not sha or versions.get(sha) is not None:
+                continue
+            # the commit published it if the file it holds is that one
+            data = _git("show", "%s:%s" % (commit, item.get("file"))) if commit else None
+            mine = data is not None and hashlib.sha256(data).hexdigest() == sha
+            versions[sha] = commit if mine else versions.get(sha)
 
-    try:
-        commits = subprocess.run(
-            ["git", "log", "--reverse", "--format=%H", "--", "index.json"],
-            cwd=ROOT,
-            capture_output=True,
-            text=True,
-            check=True,
-        ).stdout.split()
-        for commit in commits:
-            shown = subprocess.run(
-                ["git", "show", "%s:index.json" % commit],
-                cwd=ROOT,
-                capture_output=True,
-                text=True,
-            )
-            if shown.returncode == 0:
-                add(shown.stdout)
-    except (OSError, subprocess.CalledProcessError):
-        pass
+    commits = (_git("log", "--reverse", "--format=%H", "--", "index.json") or b"").decode().split()
+    for commit in commits:
+        shown = _git("show", "%s:index.json" % commit)
+        if shown is not None:
+            add(shown.decode("utf-8", "replace"), commit)
     if os.path.exists(os.path.join(ROOT, "index.json")):
         with open(os.path.join(ROOT, "index.json")) as f:
             add(f.read())
@@ -179,10 +189,15 @@ def main():
         found, wrong = collect(kind, folder, thumbs)
         items += found
         failed = failed or wrong
-    # the sha256s each was published with before, newest last
+    # the versions each was published with before, oldest first, each with the commit that
+    # published it: the one it is now gets its commit when it is replaced
     before = published()
     for item in items:
-        history = [sha for sha in before.get(item["id"], []) if sha != item["sha256"]]
+        history = [
+            {"sha256": sha, "commit": commit} if commit else {"sha256": sha}
+            for sha, commit in before.get(item["id"], {}).items()
+            if sha != item["sha256"]
+        ]
         if history:
             item["history"] = history
     index = {"format": FORMAT, "items": items}
