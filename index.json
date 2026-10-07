@@ -810,6 +810,116 @@
           "commit": "69585c992482c904cf8cf1ad261529d75669037c"
         }
       ]
+    },
+    {
+      "id": "Block_1-2-3_3-8-16",
+      "kind": "fixture",
+      "file": "fixtures/Block_1-2-3_3-8-16.FCStd",
+      "size": 244239,
+      "sha256": "7181726551ec92b1c6379631300bcff1cbb507e3ff1dd228b00da08e8815f5d3",
+      "label": "1-2-3 block, 3/8-16",
+      "maker": "Generic",
+      "model": "1-2-3 block, 23 holes, 5 tapped 3/8-16",
+      "type": "Machinist's block",
+      "license": "CC-BY-4.0",
+      "attribution": "Made for this library by Billy Huddleston, generated from the common 23-hole pattern",
+      "source": "common imported 23-hole block: taytools.com, littlemachineshop.com, accusizetools.com, shars.com; hole spacing hobby-machinist.com/threads/connecting-123-blocks.101669",
+      "settings": {
+        "kind": "Block",
+        "length": 50.8,
+        "simAsBlock": false,
+        "thickness": 25.4,
+        "width": 76.2
+      },
+      "thumbnail": "thumbnails/Block_1-2-3_3-8-16.png"
+    },
+    {
+      "id": "Block_2-4-6_5-8-11",
+      "kind": "fixture",
+      "file": "fixtures/Block_2-4-6_5-8-11.FCStd",
+      "size": 288910,
+      "sha256": "beb1d6f588772c6498df83d079575522f630cd2b5f750225c364020a25897212",
+      "label": "2-4-6 block, 5/8-11",
+      "maker": "Generic",
+      "model": "2-4-6 block, 23 holes, 5 tapped 5/8-11",
+      "type": "Machinist's block",
+      "license": "CC-BY-4.0",
+      "attribution": "Made for this library by Billy Huddleston, generated from the common 23-hole pattern",
+      "source": "common imported 23-hole block: taytools.com, littlemachineshop.com, accusizetools.com, shars.com; hole spacing hobby-machinist.com/threads/connecting-123-blocks.101669",
+      "settings": {
+        "kind": "Block",
+        "length": 101.6,
+        "simAsBlock": false,
+        "thickness": 50.8,
+        "width": 152.4
+      },
+      "thumbnail": "thumbnails/Block_2-4-6_5-8-11.png"
+    },
+    {
+      "id": "Block_25-50-75_3-8-16",
+      "kind": "fixture",
+      "file": "fixtures/Block_25-50-75_3-8-16.FCStd",
+      "size": 240225,
+      "sha256": "2dc26fcf4e66e727d591020f1b0291705b85f047a5606707f4695fb8f0cdd6da",
+      "label": "25-50-75 block, 3/8-16",
+      "maker": "Generic",
+      "model": "25-50-75 mm block, 23 holes, 5 tapped 3/8-16",
+      "type": "Machinist's block",
+      "license": "CC-BY-4.0",
+      "attribution": "Made for this library by Billy Huddleston, generated from the common 23-hole pattern",
+      "source": "common imported 23-hole block: taytools.com, littlemachineshop.com, accusizetools.com, shars.com; hole spacing hobby-machinist.com/threads/connecting-123-blocks.101669",
+      "settings": {
+        "kind": "Block",
+        "length": 50.0,
+        "simAsBlock": false,
+        "thickness": 25.0,
+        "width": 75.0
+      },
+      "thumbnail": "thumbnails/Block_25-50-75_3-8-16.png"
+    },
+    {
+      "id": "Block_25-50-75_M10",
+      "kind": "fixture",
+      "file": "fixtures/Block_25-50-75_M10.FCStd",
+      "size": 237534,
+      "sha256": "89476de6510e73d453ab715b401317af730265b2a7dd0be221e414d4084a35f5",
+      "label": "25-50-75 block, M10",
+      "maker": "Generic",
+      "model": "25-50-75 mm block, 23 holes, 5 tapped M10",
+      "type": "Machinist's block",
+      "license": "CC-BY-4.0",
+      "attribution": "Made for this library by Billy Huddleston, generated from the common 23-hole pattern",
+      "source": "common imported 23-hole block: taytools.com, littlemachineshop.com, accusizetools.com, shars.com; hole spacing hobby-machinist.com/threads/connecting-123-blocks.101669",
+      "settings": {
+        "kind": "Block",
+        "length": 50.0,
+        "simAsBlock": false,
+        "thickness": 25.0,
+        "width": 75.0
+      },
+      "thumbnail": "thumbnails/Block_25-50-75_M10.png"
+    },
+    {
+      "id": "Block_50-100-150_M16",
+      "kind": "fixture",
+      "file": "fixtures/Block_50-100-150_M16.FCStd",
+      "size": 238807,
+      "sha256": "561af25a5f6d67aa92d24dfa571e2375a0f6ad5578b907b312b0c46e916c04f0",
+      "label": "50-100-150 block, M16",
+      "maker": "Generic",
+      "model": "50-100-150 mm block, 23 holes, 5 tapped M16",
+      "type": "Machinist's block",
+      "license": "CC-BY-4.0",
+      "attribution": "Made for this library by Billy Huddleston, generated from the common 23-hole pattern",
+      "source": "common imported 23-hole block: taytools.com, littlemachineshop.com, accusizetools.com, shars.com; hole spacing hobby-machinist.com/threads/connecting-123-blocks.101669",
+      "settings": {
+        "kind": "Block",
+        "length": 100.0,
+        "simAsBlock": false,
+        "thickness": 50.0,
+        "width": 150.0
+      },
+      "thumbnail": "thumbnails/Block_50-100-150_M16.png"
     }
   ]
 }

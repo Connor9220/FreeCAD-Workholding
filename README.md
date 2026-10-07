@@ -1,6 +1,6 @@
 # FreeCAD CAM workholding library
 
-Vises and clamps for FreeCAD's CAM workbench. Each vise is a FreeCAD file laid out the way the CAM
+Vises, clamps and fixtures for FreeCAD's CAM workbench. Each vise is a FreeCAD file laid out the way the CAM
 workbench's Vise panel takes it: origin on the fixed jaw's face, at the top of the jaws, centered across them, +Z
 up, the jaws closing along -Y, and a VarSet named `Vise` with its settings (`Opening`,
 `JawHeight`, `JawWidth`, `MaxOpening`, `SeatHeight`, `JawPlates`, `JawSteps`, `ViseSchema`, ...).
@@ -39,10 +39,19 @@ As a vise, in `clamps/`. `type` is one of `Edge clamp`, `Toe clamp`, `Strap clam
 or `Dog` (`CLAMP_TYPES` in `tools/make_index.py`). FreeCAD saves a clamp downloaded in your
 Workholding/Clamps folder.
 
+## Adding a fixture
+
+As a vise, in `fixtures/`: the tables, plates, pallets, angle plates and blocks other workholding
+stands on. Its settings VarSet has its `Kind` (`MillTable`, `Spoilboard`, `Plate`, `Pallet`,
+`AnglePlate` or `Block`), its size (`Width`, `Length`, `Thickness`) and its holes and T-slots to
+snap to. `type` is one of `Fixture plate`, `Machinist's block`, `Mill table`, `Spoilboard`,
+`Pallet` or `Angle plate` (`FIXTURE_TYPES` in `tools/make_index.py`). FreeCAD saves a fixture
+downloaded in your Workholding/Fixtures folder.
+
 A file holding Python, which would run when it is opened, is refused.
 
 ## Licenses
 
-Each vise and clamp carries its own license and attribution, stamped in its file and listed in
+Each vise, clamp and fixture carries its own license and attribution, stamped in its file and listed in
 `index.json`; see
 [LICENSES.md](LICENSES.md).

@@ -21,5 +21,13 @@
 | EdgeHugger clamp, Track Boss T-nut | drawn for this library from the maker's published dimensions | Drawn from ToolQuest's published dimensions, [source](https://toolquest.net/products/edgehugger-clamp-head-4-pack) |
 | Toe clamp, 30 mm (3D printed) | CC BY 4.0 | Designed and 3D printed by Billy Huddleston |
 
+| Fixture | License | Attribution |
+|---|---|---|
+| 1-2-3 block, 3/8-16 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Made for this library by Billy Huddleston, generated from the common 23-hole pattern |
+| 2-4-6 block, 5/8-11 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Made for this library by Billy Huddleston, generated from the common 23-hole pattern |
+| 25-50-75 block, M10 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Made for this library by Billy Huddleston, generated from the common 23-hole pattern |
+| 25-50-75 block, 3/8-16 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Made for this library by Billy Huddleston, generated from the common 23-hole pattern |
+| 50-100-150 block, M16 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Made for this library by Billy Huddleston, generated from the common 23-hole pattern |
+
 Each vise was laid out as a FreeCAD CAM vise: placed in the CAM vise frame, split into body and
 moving parts, and given its settings.

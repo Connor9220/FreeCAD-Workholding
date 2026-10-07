@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Write index.json for this library of FreeCAD CAM workholding: each vise in vises/ and clamp in
-clamps/, what it is, where it came from and under what license, its settings, its thumbnail, and
+"""Write index.json for this library of FreeCAD CAM workholding: each vise in vises/, clamp in
+clamps/ and fixture in fixtures/, what it is, where it came from and under what license, its settings, its thumbnail, and
 the sha256 a download is checked against. Plain Python, no FreeCAD needed: run it after adding or changing a
 file, and commit what it writes.
 
@@ -46,10 +46,28 @@ CLAMP_SETTINGS = {
     "MinStockThickness": "minStock",
     "MaxStockThickness": "maxStock",
 }
+# what a fixture's settings are called in its file, and in the index
+FIXTURE_SETTINGS = {
+    "Kind": "kind",
+    "Width": "width",
+    "Length": "length",
+    "Thickness": "thickness",
+    "SimAsBlock": "simAsBlock",
+}
 META = ("label", "maker", "model", "type", "license", "attribution", "source")
 # the kinds of vise FreeCAD filters the library by: one of these, a new one added here first
 CLAMP_KINDS = ("HoldDown", "Push", "Lever", "StrapKit")
 CLAMP_TYPES = ("Edge clamp", "Toe clamp", "Strap clamp", "Side clamp", "Dog")
+# a fixture's Kind, as FreeCAD's FIXTURE_KINDS, and the types the library sorts them by
+FIXTURE_KINDS = ("MillTable", "Spoilboard", "Plate", "Pallet", "AnglePlate", "Block")
+FIXTURE_TYPES = (
+    "Fixture plate",
+    "Machinist's block",
+    "Mill table",
+    "Spoilboard",
+    "Pallet",
+    "Angle plate",
+)
 TYPES = (
     "CNC",
     "Multi-station",
@@ -185,7 +203,7 @@ def main():
     os.makedirs(thumbs, exist_ok=True)
     items = []
     failed = False
-    for kind, folder in (("vise", "vises"), ("clamp", "clamps")):
+    for kind, folder in (("vise", "vises"), ("clamp", "clamps"), ("fixture", "fixtures")):
         found, wrong = collect(kind, folder, thumbs)
         items += found
         failed = failed or wrong
@@ -205,8 +223,8 @@ def main():
         json.dump(index, f, indent=2)
         f.write("\n")
     print(
-        "index.json: %d vises, %d clamps"
-        % (sum(i["kind"] == "vise" for i in items), sum(i["kind"] == "clamp" for i in items))
+        "index.json: %d vises, %d clamps, %d fixtures"
+        % tuple(sum(i["kind"] == k for i in items) for k in ("vise", "clamp", "fixture"))
     )
     return 1 if failed else 0
 
@@ -242,12 +260,14 @@ def collect(kind, folder, thumbs):
             )
             failed = True
             continue
-        types = TYPES if kind == "vise" else CLAMP_TYPES
+        types = {"vise": TYPES, "clamp": CLAMP_TYPES, "fixture": FIXTURE_TYPES}[kind]
         if meta["type"] not in types:
             print("%s: type %r is none of %s, left out" % (name, meta["type"], ", ".join(types)))
             failed = True
             continue
-        found = read(path, SETTINGS if kind == "vise" else CLAMP_SETTINGS)
+        found = read(
+            path, {"vise": SETTINGS, "clamp": CLAMP_SETTINGS, "fixture": FIXTURE_SETTINGS}[kind]
+        )
         if found["python"]:
             print("%s: holds Python, run when opened (%s), left out" % (name, ", ".join(found["python"])))
             failed = True
@@ -260,6 +280,10 @@ def collect(kind, folder, thumbs):
             continue
         if kind == "clamp" and found["settings"].get("kind") not in CLAMP_KINDS:
             print("%s: no clamp Kind (HoldDown, Push, Lever or StrapKit) in it, left out" % name)
+            failed = True
+            continue
+        if kind == "fixture" and found["settings"].get("kind") not in FIXTURE_KINDS:
+            print("%s: no fixture Kind (%s) in it, left out" % (name, ", ".join(FIXTURE_KINDS)))
             failed = True
             continue
         if found["nameTable"]:
