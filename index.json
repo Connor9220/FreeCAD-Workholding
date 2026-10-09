@@ -514,8 +514,8 @@
       "id": "StrapKit_1-2_TSlot",
       "kind": "clamp",
       "file": "clamps/StrapKit_1-2_TSlot.FCStd",
-      "size": 125723,
-      "sha256": "af4ca0421ac981d5b0a6b193525eb2d75d9c6cb7946896eb825d8199d7463262",
+      "size": 139646,
+      "sha256": "6bb84516e9fd1cd021cec25525dfc6a9f24a641b244c94b46f657c14c54e9343",
       "label": "Strap clamp kit, 1/2 in. T-slot, toothed",
       "maker": "Generic",
       "model": "Step blocks and strap clamps, 1/2 in. T-slot, 3/8-16 studs, toothed",
@@ -551,6 +551,10 @@
         {
           "sha256": "6c634b4143547140f196f5fad8a9b7e94131a5ef320df8f83aae0cd1c0357f7a",
           "commit": "5bca8c3f62d8332bbddde040227e298ac4f96a81"
+        },
+        {
+          "sha256": "af4ca0421ac981d5b0a6b193525eb2d75d9c6cb7946896eb825d8199d7463262",
+          "commit": "93b14d31dab6ad70769b50437e22e5d3bf212eeb"
         }
       ]
     },
@@ -558,8 +562,8 @@
       "id": "StrapKit_1-2_TSlot_Plain",
       "kind": "clamp",
       "file": "clamps/StrapKit_1-2_TSlot_Plain.FCStd",
-      "size": 120109,
-      "sha256": "c80ab8ff10580525c82832bc2cd1a4c2afc430bbe509c905633fa4ebb85cd929",
+      "size": 133717,
+      "sha256": "d2f9b467afb700a9971df525b4160af2bf4ed87ded5355a80b3a8d70020731b5",
       "label": "Strap clamp kit, 1/2 in. T-slot, plain",
       "maker": "Generic",
       "model": "Step blocks and strap clamps, 1/2 in. T-slot, 3/8-16 studs, plain",
@@ -579,6 +583,10 @@
         {
           "sha256": "8cadd23bee70ab18f97d9c305e3c4b79bef88042b1f97a76f84304ef871e1f9f",
           "commit": "5bca8c3f62d8332bbddde040227e298ac4f96a81"
+        },
+        {
+          "sha256": "c80ab8ff10580525c82832bc2cd1a4c2afc430bbe509c905633fa4ebb85cd929",
+          "commit": "93b14d31dab6ad70769b50437e22e5d3bf212eeb"
         }
       ]
     },
@@ -586,8 +594,8 @@
       "id": "StrapKit_5-8_TSlot",
       "kind": "clamp",
       "file": "clamps/StrapKit_5-8_TSlot.FCStd",
-      "size": 129928,
-      "sha256": "6fe4d349b9e95c589303447e71831d08e0b777ef8e517235e973f2a2539754cf",
+      "size": 144128,
+      "sha256": "2c4e44e44bb33aff0374cb587e7183b27c8401f089260b5a4e867d589a7c54e5",
       "label": "Strap clamp kit, 5/8 in. T-slot, toothed",
       "maker": "Generic",
       "model": "Step blocks and strap clamps, 5/8 in. T-slot, 1/2-13 studs, toothed",
@@ -623,6 +631,10 @@
         {
           "sha256": "a5b68173fc56ec36a19afaf4f8eeaa3200b551fda1e959303c7b3d14e981b260",
           "commit": "5bca8c3f62d8332bbddde040227e298ac4f96a81"
+        },
+        {
+          "sha256": "6fe4d349b9e95c589303447e71831d08e0b777ef8e517235e973f2a2539754cf",
+          "commit": "93b14d31dab6ad70769b50437e22e5d3bf212eeb"
         }
       ]
     },
@@ -630,8 +642,8 @@
       "id": "StrapKit_5-8_TSlot_Plain",
       "kind": "clamp",
       "file": "clamps/StrapKit_5-8_TSlot_Plain.FCStd",
-      "size": 123759,
-      "sha256": "449739d88f11c03017b978c2a5f98145251aeee449304c242cc5f1a9f7f16826",
+      "size": 138060,
+      "sha256": "1db3c7578d12e987cac165ca5930a5d906013aa6cb569e5c52fe7e1b0769ae44",
       "label": "Strap clamp kit, 5/8 in. T-slot, plain",
       "maker": "Generic",
       "model": "Step blocks and strap clamps, 5/8 in. T-slot, 1/2-13 studs, plain",
@@ -651,6 +663,10 @@
         {
           "sha256": "2c8ee83eefef30aa76bde2118a20c45e7d367711aa16c829b44e2ea59d739977",
           "commit": "5bca8c3f62d8332bbddde040227e298ac4f96a81"
+        },
+        {
+          "sha256": "449739d88f11c03017b978c2a5f98145251aeee449304c242cc5f1a9f7f16826",
+          "commit": "93b14d31dab6ad70769b50437e22e5d3bf212eeb"
         }
       ]
     },
@@ -658,8 +674,8 @@
       "id": "StrapKit_7-16_TSlot",
       "kind": "clamp",
       "file": "clamps/StrapKit_7-16_TSlot.FCStd",
-      "size": 128066,
-      "sha256": "458d22a0b10a4d173bb6c7d5351452269de67f670154ed48ef65f8b2ca09d9d5",
+      "size": 141774,
+      "sha256": "06b089b53f93e4cf9dfdf4246aebf1e014f47bc907f65da692a1995b534bebc2",
       "label": "Strap clamp kit, 7/16 in. T-slot, toothed",
       "maker": "Generic",
       "model": "Step blocks and strap clamps, 7/16 in. T-slot, 3/8-16 studs, toothed",
@@ -695,6 +711,10 @@
         {
           "sha256": "1484d2fe45d82a1603ec2c1cfcddb2630767b1b66d947d5d56b84d6d1ee93d55",
           "commit": "5bca8c3f62d8332bbddde040227e298ac4f96a81"
+        },
+        {
+          "sha256": "458d22a0b10a4d173bb6c7d5351452269de67f670154ed48ef65f8b2ca09d9d5",
+          "commit": "93b14d31dab6ad70769b50437e22e5d3bf212eeb"
         }
       ]
     },
@@ -702,8 +722,8 @@
       "id": "StrapKit_7-16_TSlot_Plain",
       "kind": "clamp",
       "file": "clamps/StrapKit_7-16_TSlot_Plain.FCStd",
-      "size": 122000,
-      "sha256": "736015fc26ab73ac731939b0825ca8e4c341814204b5f0dad073515ceabea007",
+      "size": 137434,
+      "sha256": "e6cefc7f2eab8ee8d1e2a7138000c81813af4516d7f6231302da16eb115ed50d",
       "label": "Strap clamp kit, 7/16 in. T-slot, plain",
       "maker": "Generic",
       "model": "Step blocks and strap clamps, 7/16 in. T-slot, 3/8-16 studs, plain",
@@ -723,6 +743,10 @@
         {
           "sha256": "a36fd691f98c8bf2a30c6fc74f04958f2d7bf6dffba3f39b70ee6c6d83696ccd",
           "commit": "5bca8c3f62d8332bbddde040227e298ac4f96a81"
+        },
+        {
+          "sha256": "736015fc26ab73ac731939b0825ca8e4c341814204b5f0dad073515ceabea007",
+          "commit": "93b14d31dab6ad70769b50437e22e5d3bf212eeb"
         }
       ]
     },
