@@ -41,8 +41,8 @@
       "id": "Kurt_3400V",
       "kind": "vise",
       "file": "vises/Kurt_3400V.FCStd",
-      "size": 365353,
-      "sha256": "3ac01a0aaade6527b267ed690eb65f0bc78c89dcb69af002fcd06f8937b62eef",
+      "size": 365342,
+      "sha256": "43c35a5664721e9b85deeec92237ff90626410128165eadb86e542b109136794",
       "label": "Kurt 3400V vise",
       "maker": "Kurt Workholding",
       "model": "3400V AngLock vise",
@@ -74,6 +74,10 @@
         {
           "sha256": "059eef8b8fd9117cd1e29acbe702c943de401fbc4b1f7ff01e8108538498a618",
           "commit": "af886268d5a3bbcd50d35076e01b453aa870987a"
+        },
+        {
+          "sha256": "3ac01a0aaade6527b267ed690eb65f0bc78c89dcb69af002fcd06f8937b62eef",
+          "commit": "77b9c284caea74663d405d598c6dd53164bd0d79"
         }
       ]
     },
