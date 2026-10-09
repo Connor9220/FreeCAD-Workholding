@@ -5,8 +5,8 @@
       "id": "HarborFreight_Vise",
       "kind": "vise",
       "file": "vises/HarborFreight_Vise.FCStd",
-      "size": 390247,
-      "sha256": "8a68751e50973327ca55ebf88323222bc40c49d055097a9ff9aef0fc76983b5c",
+      "size": 437417,
+      "sha256": "d8a4d4163222161312a2ab0f4a38dd2c9eabca0c2b95d2fb53ba77e7545487fc",
       "label": "Harbor Freight 4 in. drill press vise",
       "maker": "Harbor Freight",
       "model": "4 in. drill press vise",
@@ -30,6 +30,10 @@
         {
           "sha256": "daa9fe87ca28322acf5bbdf3a6927e9a68d2591fcd8cc3f1d4d6127f53e5f5b3",
           "commit": "43de3ded7845f4581f4179d8eb6fb0299fb77240"
+        },
+        {
+          "sha256": "8a68751e50973327ca55ebf88323222bc40c49d055097a9ff9aef0fc76983b5c",
+          "commit": "af886268d5a3bbcd50d35076e01b453aa870987a"
         }
       ]
     },
@@ -37,8 +41,8 @@
       "id": "Kurt_3400V",
       "kind": "vise",
       "file": "vises/Kurt_3400V.FCStd",
-      "size": 363793,
-      "sha256": "059eef8b8fd9117cd1e29acbe702c943de401fbc4b1f7ff01e8108538498a618",
+      "size": 365353,
+      "sha256": "3ac01a0aaade6527b267ed690eb65f0bc78c89dcb69af002fcd06f8937b62eef",
       "label": "Kurt 3400V vise",
       "maker": "Kurt Workholding",
       "model": "3400V AngLock vise",
@@ -66,6 +70,10 @@
         {
           "sha256": "6d4f58cab7a744b69b6d756345b61b640b6ed169953b4201e53bde3c2a36ae7f",
           "commit": "43de3ded7845f4581f4179d8eb6fb0299fb77240"
+        },
+        {
+          "sha256": "059eef8b8fd9117cd1e29acbe702c943de401fbc4b1f7ff01e8108538498a618",
+          "commit": "af886268d5a3bbcd50d35076e01b453aa870987a"
         }
       ]
     },
@@ -73,8 +81,8 @@
       "id": "Kurt_DL430_DoubleLock_Vise",
       "kind": "vise",
       "file": "vises/Kurt_DL430_DoubleLock_Vise.FCStd",
-      "size": 1067679,
-      "sha256": "a7f591457826e48c57e563f1df20e3449373870f231b7f1acce7bc6caa71ef1f",
+      "size": 1056222,
+      "sha256": "125fbf2a5d1c31de83bd4c5665e3b8f78d440616870dfc67e3c17f9656ac405c",
       "label": "Kurt DL430 DoubleLock vise",
       "maker": "Kurt Workholding",
       "model": "DL430 DoubleLock vise, 4 in., two stations",
@@ -100,6 +108,10 @@
         {
           "sha256": "bcbe5762f3daa5eb279643ad3e9c49d9cba26e50065b68fee24b43057fe4531f",
           "commit": "43de3ded7845f4581f4179d8eb6fb0299fb77240"
+        },
+        {
+          "sha256": "a7f591457826e48c57e563f1df20e3449373870f231b7f1acce7bc6caa71ef1f",
+          "commit": "af886268d5a3bbcd50d35076e01b453aa870987a"
         }
       ]
     },
@@ -107,8 +119,8 @@
       "id": "Mini_Low_Profile_Vise",
       "kind": "vise",
       "file": "vises/Mini_Low_Profile_Vise.FCStd",
-      "size": 27883,
-      "sha256": "d634fc0c525197fa8248cd13b999c0ddee532ecf34fbee1e930e9138183d9197",
+      "size": 28376,
+      "sha256": "f20cb4c99ad9d334f32ec190aa0358ccd11cf5388bba12655013353e0db431ff",
       "label": "Mini low profile vise",
       "maker": "Generic",
       "model": "Mini low profile vise, 200 x 80 x 40 mm, aluminum; sold by FoxAlien and others",
@@ -136,6 +148,10 @@
         {
           "sha256": "171c3944eedd71c9b89502a54b3fe7a4833e7f6446a54d29b533f26c5fe2d6ba",
           "commit": "43de3ded7845f4581f4179d8eb6fb0299fb77240"
+        },
+        {
+          "sha256": "d634fc0c525197fa8248cd13b999c0ddee532ecf34fbee1e930e9138183d9197",
+          "commit": "af886268d5a3bbcd50d35076e01b453aa870987a"
         }
       ]
     },
@@ -143,8 +159,8 @@
       "id": "SMW_ModVise_Gen3_HalfInch",
       "kind": "vise",
       "file": "vises/SMW_ModVise_Gen3_HalfInch.FCStd",
-      "size": 303535,
-      "sha256": "9bff8c2278e8e9743701b401cdbced221f1ca6bcc4e326aa7d854c952910a9e9",
+      "size": 302421,
+      "sha256": "cf694b4734e9966d2ac582519e91a3ba73510f1d3caefd903bc9e6dfd3af092e",
       "label": "SMW Gen3 Mod Vise, 1/2 in. plate",
       "maker": "Saunders Machine Works",
       "model": "Gen3 Mod Vise, 1/2 in. single station",
@@ -177,6 +193,10 @@
         {
           "sha256": "4aec5b27da11099a869f4a994e244bcb56842ae84490d3718e53d905021f0fc4",
           "commit": "43de3ded7845f4581f4179d8eb6fb0299fb77240"
+        },
+        {
+          "sha256": "9bff8c2278e8e9743701b401cdbced221f1ca6bcc4e326aa7d854c952910a9e9",
+          "commit": "af886268d5a3bbcd50d35076e01b453aa870987a"
         }
       ]
     },
@@ -184,8 +204,8 @@
       "id": "SMW_ModVise_Gen3_M12",
       "kind": "vise",
       "file": "vises/SMW_ModVise_Gen3_M12.FCStd",
-      "size": 312368,
-      "sha256": "f77e62636447a074a7c49eb9ef9d321a8470cbac292fb19877ce25c4e5c4d91e",
+      "size": 348476,
+      "sha256": "bbafa335bedb281cbbb86c1907521ea43187174bc2ebe083e4c198dc7da7ca5c",
       "label": "SMW Gen3 Mod Vise, M12 plate",
       "maker": "Saunders Machine Works",
       "model": "Gen3 Mod Vise, M12 single station",
@@ -218,6 +238,10 @@
         {
           "sha256": "3cbd0794f2775e6dfbe1ac2f4bf19d80e333075bcb7cd3d5506bbd888c8185bc",
           "commit": "43de3ded7845f4581f4179d8eb6fb0299fb77240"
+        },
+        {
+          "sha256": "f77e62636447a074a7c49eb9ef9d321a8470cbac292fb19877ce25c4e5c4d91e",
+          "commit": "af886268d5a3bbcd50d35076e01b453aa870987a"
         }
       ]
     },
@@ -225,8 +249,8 @@
       "id": "SMW_ModVise_Hobby_Gen3_M6",
       "kind": "vise",
       "file": "vises/SMW_ModVise_Hobby_Gen3_M6.FCStd",
-      "size": 318332,
-      "sha256": "cae6816aed485a92d2235b3a84e73a4b83c20285d8349fe74fcf61673d6bf5ac",
+      "size": 316498,
+      "sha256": "183f3e052fa78eb955877382357e613ae9763e5d1e9a9c19c87fce5f2955e755",
       "label": "SMW Gen3 Hobby Mod Vise, M6 plate",
       "maker": "Saunders Machine Works",
       "model": "Gen3 Hobby Mod Vise, M6",
@@ -255,6 +279,10 @@
         {
           "sha256": "516f64fcf6f3db966fb70c16b63b2040332aa408ea2af7c302b118e86e532985",
           "commit": "43de3ded7845f4581f4179d8eb6fb0299fb77240"
+        },
+        {
+          "sha256": "cae6816aed485a92d2235b3a84e73a4b83c20285d8349fe74fcf61673d6bf5ac",
+          "commit": "af886268d5a3bbcd50d35076e01b453aa870987a"
         }
       ]
     },
@@ -262,8 +290,8 @@
       "id": "SMW_ModVise_Hobby_Gen3_QuarterInch",
       "kind": "vise",
       "file": "vises/SMW_ModVise_Hobby_Gen3_QuarterInch.FCStd",
-      "size": 319724,
-      "sha256": "004130cd5e1413afce7f535e2ec9ffbc4a375b6390cebb0e16f26079dc4340aa",
+      "size": 317884,
+      "sha256": "c0d829c010b7b852d073b0588bb7fa3768c4084a9c3536e5395f05ff0501bb0e",
       "label": "SMW Gen3 Hobby Mod Vise, 1/4 in. plate",
       "maker": "Saunders Machine Works",
       "model": "Gen3 Hobby Mod Vise, 1/4 in.",
@@ -292,6 +320,10 @@
         {
           "sha256": "3f9537e274ad90091b83809252d6ec66f24b35e312c3c181e5276925123fd73d",
           "commit": "43de3ded7845f4581f4179d8eb6fb0299fb77240"
+        },
+        {
+          "sha256": "004130cd5e1413afce7f535e2ec9ffbc4a375b6390cebb0e16f26079dc4340aa",
+          "commit": "af886268d5a3bbcd50d35076e01b453aa870987a"
         }
       ]
     },
@@ -299,8 +331,8 @@
       "id": "Tormach_4in_CNC_Vise",
       "kind": "vise",
       "file": "vises/Tormach_4in_CNC_Vise.FCStd",
-      "size": 386308,
-      "sha256": "2375ae2f049625a50d9a0e640ae3ed6fbeb2bf843c0ad7b5590b38ef28859bad",
+      "size": 383083,
+      "sha256": "dbfda4591686c067a428c00fabf455f34da7572609e4ed5aaf9b5d828bf01d05",
       "label": "Tormach 4 in. CNC vise",
       "maker": "Tormach",
       "model": "4 in. CNC vise, 35285",
@@ -332,6 +364,10 @@
         {
           "sha256": "d5948b464b3bcd6defbd0ae21f9d7873b4d27d9241e9db6b802ff21a21ca5c35",
           "commit": "43de3ded7845f4581f4179d8eb6fb0299fb77240"
+        },
+        {
+          "sha256": "2375ae2f049625a50d9a0e640ae3ed6fbeb2bf843c0ad7b5590b38ef28859bad",
+          "commit": "af886268d5a3bbcd50d35076e01b453aa870987a"
         }
       ]
     },
@@ -339,8 +375,8 @@
       "id": "Tormach_5in_CNC_Vise",
       "kind": "vise",
       "file": "vises/Tormach_5in_CNC_Vise.FCStd",
-      "size": 591429,
-      "sha256": "52c8fe448e42c118406ae307917ac54d4aff1f2090f5fb619780307ac109a2ba",
+      "size": 587613,
+      "sha256": "cbe83e912ec5626bc1d239cc1bd23df5e6c62179dea6e8f36659e49d431f8210",
       "label": "Tormach 5 in. CNC vise",
       "maker": "Tormach",
       "model": "5 in. CNC vise, 31759",
@@ -369,6 +405,10 @@
         {
           "sha256": "e338c3d4599028b2b429deaf3053172fc5e5a2d87402701e8245de1a3bc237ba",
           "commit": "43de3ded7845f4581f4179d8eb6fb0299fb77240"
+        },
+        {
+          "sha256": "52c8fe448e42c118406ae307917ac54d4aff1f2090f5fb619780307ac109a2ba",
+          "commit": "af886268d5a3bbcd50d35076e01b453aa870987a"
         }
       ]
     },
@@ -376,8 +416,8 @@
       "id": "Tormach_6in_CNC_Vise",
       "kind": "vise",
       "file": "vises/Tormach_6in_CNC_Vise.FCStd",
-      "size": 166611,
-      "sha256": "d4eaa9b3896c6955f5c6ce3db7c0ebbcb91686019a8b15d1323978a5ed5b5fde",
+      "size": 165221,
+      "sha256": "88dd7dcf41c7c63e7a67c3580596fd4a660580d14c4713bf597347b5fc8e39f7",
       "label": "Tormach 6 in. CNC vise",
       "maker": "Tormach",
       "model": "6 in. CNC vise, 51739",
@@ -409,6 +449,10 @@
         {
           "sha256": "6c9319b7f83460f5145f0d24e7b4e97c6aca81c58215a608cfec89c633df80ad",
           "commit": "43de3ded7845f4581f4179d8eb6fb0299fb77240"
+        },
+        {
+          "sha256": "d4eaa9b3896c6955f5c6ce3db7c0ebbcb91686019a8b15d1323978a5ed5b5fde",
+          "commit": "af886268d5a3bbcd50d35076e01b453aa870987a"
         }
       ]
     },
@@ -416,8 +460,8 @@
       "id": "XinDian_H54_Self_Centering_Vise",
       "kind": "vise",
       "file": "vises/XinDian_H54_Self_Centering_Vise.FCStd",
-      "size": 2681642,
-      "sha256": "a63d18d54659695b12e3bd2399a81602a212c5b247241313f4f713adf19884f1",
+      "size": 2662914,
+      "sha256": "53d18f6bb666c5d5cf9bae4e5b697589cd708300ada297974777dabed2e0e222",
       "label": "XinDian H54 self-centering vise, 8-55 mm",
       "maker": "XinDian",
       "model": "PAF-H54-8-55 self-centering vise, 75 x 54 x 44 mm; sold by GTM Manufacturing and others",
@@ -443,6 +487,10 @@
         {
           "sha256": "08b2d8d694837565cd4e06c48dcc795cc1d3493d125b8d19e55baba3d0706f40",
           "commit": "43de3ded7845f4581f4179d8eb6fb0299fb77240"
+        },
+        {
+          "sha256": "a63d18d54659695b12e3bd2399a81602a212c5b247241313f4f713adf19884f1",
+          "commit": "af886268d5a3bbcd50d35076e01b453aa870987a"
         }
       ]
     },
