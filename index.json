@@ -891,8 +891,8 @@
       "id": "Block_1-2-3_3-8-16",
       "kind": "fixture",
       "file": "fixtures/Block_1-2-3_3-8-16.FCStd",
-      "size": 244239,
-      "sha256": "7181726551ec92b1c6379631300bcff1cbb507e3ff1dd228b00da08e8815f5d3",
+      "size": 230376,
+      "sha256": "527a095b2fb98f4113cfbd8472530de71401d7b6ae677986f697171843ba89f9",
       "label": "1-2-3 block, 3/8-16",
       "maker": "Generic",
       "model": "1-2-3 block, 23 holes, 5 tapped 3/8-16",
@@ -907,14 +907,24 @@
         "thickness": 25.4,
         "width": 76.2
       },
-      "thumbnail": "thumbnails/Block_1-2-3_3-8-16.png"
+      "thumbnail": "thumbnails/Block_1-2-3_3-8-16.png",
+      "history": [
+        {
+          "sha256": "7181726551ec92b1c6379631300bcff1cbb507e3ff1dd228b00da08e8815f5d3",
+          "commit": "e048d3dac1eb19ca7af8f61aeeca568ddeccf3a9"
+        },
+        {
+          "sha256": "bdd5405f13932783fcee382032c2815c48b3cb729bd830f5b164dc52256ba44d",
+          "commit": "1c57c1da9501cb6f3067fcd3b9e95f39aa737d8e"
+        }
+      ]
     },
     {
       "id": "Block_2-4-6_5-8-11",
       "kind": "fixture",
       "file": "fixtures/Block_2-4-6_5-8-11.FCStd",
-      "size": 288910,
-      "sha256": "beb1d6f588772c6498df83d079575522f630cd2b5f750225c364020a25897212",
+      "size": 283208,
+      "sha256": "9ed14db1bfa1a1c113a133aca4591904f79688a366ab5a9b788bb22e6db3814e",
       "label": "2-4-6 block, 5/8-11",
       "maker": "Generic",
       "model": "2-4-6 block, 23 holes, 5 tapped 5/8-11",
@@ -929,14 +939,20 @@
         "thickness": 50.8,
         "width": 152.4
       },
-      "thumbnail": "thumbnails/Block_2-4-6_5-8-11.png"
+      "thumbnail": "thumbnails/Block_2-4-6_5-8-11.png",
+      "history": [
+        {
+          "sha256": "beb1d6f588772c6498df83d079575522f630cd2b5f750225c364020a25897212",
+          "commit": "e048d3dac1eb19ca7af8f61aeeca568ddeccf3a9"
+        }
+      ]
     },
     {
       "id": "Block_25-50-75_3-8-16",
       "kind": "fixture",
       "file": "fixtures/Block_25-50-75_3-8-16.FCStd",
-      "size": 240225,
-      "sha256": "2dc26fcf4e66e727d591020f1b0291705b85f047a5606707f4695fb8f0cdd6da",
+      "size": 228059,
+      "sha256": "f44c56d490d5df351ce9ebd9f0a177de21154c27ad7e884fd807d70b7c9fbcf9",
       "label": "25-50-75 block, 3/8-16",
       "maker": "Generic",
       "model": "25-50-75 mm block, 23 holes, 5 tapped 3/8-16",
@@ -951,14 +967,20 @@
         "thickness": 25.0,
         "width": 75.0
       },
-      "thumbnail": "thumbnails/Block_25-50-75_3-8-16.png"
+      "thumbnail": "thumbnails/Block_25-50-75_3-8-16.png",
+      "history": [
+        {
+          "sha256": "2dc26fcf4e66e727d591020f1b0291705b85f047a5606707f4695fb8f0cdd6da",
+          "commit": "e048d3dac1eb19ca7af8f61aeeca568ddeccf3a9"
+        }
+      ]
     },
     {
       "id": "Block_25-50-75_M10",
       "kind": "fixture",
       "file": "fixtures/Block_25-50-75_M10.FCStd",
-      "size": 237534,
-      "sha256": "89476de6510e73d453ab715b401317af730265b2a7dd0be221e414d4084a35f5",
+      "size": 227833,
+      "sha256": "3a87a330a536977c57d03bccf16ccf64e493af1d77f5cbf3d2b931d773512792",
       "label": "25-50-75 block, M10",
       "maker": "Generic",
       "model": "25-50-75 mm block, 23 holes, 5 tapped M10",
@@ -973,14 +995,20 @@
         "thickness": 25.0,
         "width": 75.0
       },
-      "thumbnail": "thumbnails/Block_25-50-75_M10.png"
+      "thumbnail": "thumbnails/Block_25-50-75_M10.png",
+      "history": [
+        {
+          "sha256": "89476de6510e73d453ab715b401317af730265b2a7dd0be221e414d4084a35f5",
+          "commit": "e048d3dac1eb19ca7af8f61aeeca568ddeccf3a9"
+        }
+      ]
     },
     {
       "id": "Block_50-100-150_M16",
       "kind": "fixture",
       "file": "fixtures/Block_50-100-150_M16.FCStd",
-      "size": 238807,
-      "sha256": "561af25a5f6d67aa92d24dfa571e2375a0f6ad5578b907b312b0c46e916c04f0",
+      "size": 224469,
+      "sha256": "f0185a5d9b4bb9e48e3da13181c19fd120dd058b9c39a33f7f3680f3a7020979",
       "label": "50-100-150 block, M16",
       "maker": "Generic",
       "model": "50-100-150 mm block, 23 holes, 5 tapped M16",
@@ -995,7 +1023,13 @@
         "thickness": 50.0,
         "width": 150.0
       },
-      "thumbnail": "thumbnails/Block_50-100-150_M16.png"
+      "thumbnail": "thumbnails/Block_50-100-150_M16.png",
+      "history": [
+        {
+          "sha256": "561af25a5f6d67aa92d24dfa571e2375a0f6ad5578b907b312b0c46e916c04f0",
+          "commit": "e048d3dac1eb19ca7af8f61aeeca568ddeccf3a9"
+        }
+      ]
     }
   ]
 }
