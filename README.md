@@ -44,8 +44,10 @@ Workholding/Clamps folder.
 As a vise, in `fixtures/`: the tables, plates, pallets, angle plates and blocks other workholding
 stands on. Its settings VarSet has its `Kind` (`MillTable`, `Spoilboard`, `Plate`, `Pallet`,
 `AnglePlate` or `Block`), its size (`Width`, `Length`, `Thickness`) and its holes and T-slots to
-snap to. `type` is one of `Fixture plate`, `Machinist's block`, `Mill table`, `Spoilboard`,
-`Pallet` or `Angle plate` (`FIXTURE_TYPES` in `tools/make_index.py`). FreeCAD saves a fixture
+snap to. `type` is one of `Fixture plate`, `Machinist's block`, `V-block`, `Mill table`,
+`Spoilboard`, `Pallet` or `Angle plate` (`FIXTURE_TYPES` in `tools/make_index.py`). A V-block is a
+block (Kind `Block`) whose V-grooves are listed beside its holes: `VStarts` and `VEnds` (each V's
+apex line), `VOpenings` (the way it opens), `VAngles`, `VWidths` (at the mouth) and `VReliefs`. FreeCAD saves a fixture
 downloaded in your Workholding/Fixtures folder.
 
 A file holding Python, which would run when it is opened, is refused.

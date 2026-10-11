@@ -63,6 +63,7 @@ FIXTURE_KINDS = ("MillTable", "Spoilboard", "Plate", "Pallet", "AnglePlate", "Bl
 FIXTURE_TYPES = (
     "Fixture plate",
     "Machinist's block",
+    "V-block",
     "Mill table",
     "Spoilboard",
     "Pallet",

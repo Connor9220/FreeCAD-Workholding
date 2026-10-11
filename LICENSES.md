@@ -28,6 +28,11 @@
 | 25-50-75 block, M10 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Made for this library by Billy Huddleston, generated from the common 23-hole pattern |
 | 25-50-75 block, 3/8-16 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Made for this library by Billy Huddleston, generated from the common 23-hole pattern |
 | 50-100-150 block, M16 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Made for this library by Billy Huddleston, generated from the common 23-hole pattern |
+| V-block 1-1/4 x 1-1/4 x 1-5/8 in., 1 in. V | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Made for this library by Billy Huddleston, drawn from the sizes makers publish |
+| V-block 1-5/8 x 1-3/4 x 2-3/4 in., 1-1/2 in. V | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Made for this library by Billy Huddleston, drawn from the sizes makers publish |
+| V-block 2 x 3 x 2-1/2 in., deep V for square stock | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Made for this library by Billy Huddleston, drawn from the sizes makers publish |
+| V-block 4 x 4-1/2 x 2-1/2 in., 120 degree V | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Made for this library by Billy Huddleston, drawn from the sizes makers publish |
+| V-block 100 x 75 x 58 mm, cast iron, three V's | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | Made for this library by Billy Huddleston, drawn from the sizes makers publish |
 
 Each vise was laid out as a FreeCAD CAM vise: placed in the CAM vise frame, split into body and
 moving parts, and given its settings.

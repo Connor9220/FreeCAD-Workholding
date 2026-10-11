@@ -1030,6 +1030,116 @@
           "commit": "e048d3dac1eb19ca7af8f61aeeca568ddeccf3a9"
         }
       ]
+    },
+    {
+      "id": "VBlock_1-1-4x1-1-4x1-5-8",
+      "kind": "fixture",
+      "file": "fixtures/VBlock_1-1-4x1-1-4x1-5-8.FCStd",
+      "size": 18984,
+      "sha256": "07b1e876392488f66fc511f1885ace3b0cf22168b8053060a3c69060c0d8ebd0",
+      "label": "V-block 1-1/4 x 1-1/4 x 1-5/8 in., 1 in. V",
+      "maker": "Generic",
+      "model": "V-block 1-1/4 x 1-1/4 x 1-5/8 in., 90 degree V's, 1 in. capacity",
+      "type": "V-block",
+      "license": "CC-BY-4.0",
+      "attribution": "Made for this library by Billy Huddleston, drawn from the sizes makers publish",
+      "source": "https://www.freertool.com/products/278-1-14-x-1-14-x-1-58-v-block-clamp-set",
+      "settings": {
+        "kind": "Block",
+        "length": 31.75,
+        "simAsBlock": false,
+        "thickness": 31.75,
+        "width": 41.275
+      },
+      "thumbnail": "thumbnails/VBlock_1-1-4x1-1-4x1-5-8.png"
+    },
+    {
+      "id": "VBlock_1-5-8x1-3-4x2-3-4",
+      "kind": "fixture",
+      "file": "fixtures/VBlock_1-5-8x1-3-4x2-3-4.FCStd",
+      "size": 19532,
+      "sha256": "9c04f5f01f8cdb51819e0670964f82c4f6f6efdaf4900a6606ea79710ccdc2f0",
+      "label": "V-block 1-5/8 x 1-3/4 x 2-3/4 in., 1-1/2 in. V",
+      "maker": "Generic",
+      "model": "V-block 1-5/8 x 1-3/4 x 2-3/4 in., 90 degree V's, 1-1/2 in. capacity",
+      "type": "V-block",
+      "license": "CC-BY-4.0",
+      "attribution": "Made for this library by Billy Huddleston, drawn from the sizes makers publish",
+      "source": "https://penntoolco.com/precise-1-5-8-x-1-3-4-x-2-3-4-v-block-clamp-set-3402-0953",
+      "settings": {
+        "kind": "Block",
+        "length": 44.45,
+        "simAsBlock": false,
+        "thickness": 41.275,
+        "width": 69.85
+      },
+      "thumbnail": "thumbnails/VBlock_1-5-8x1-3-4x2-3-4.png"
+    },
+    {
+      "id": "VBlock_100_Cast_3V",
+      "kind": "fixture",
+      "file": "fixtures/VBlock_100_Cast_3V.FCStd",
+      "size": 16573,
+      "sha256": "57da1c748b15e25cc5ca5723c5971778499da1b474a53004591644a11491885a",
+      "label": "V-block 100 x 75 x 58 mm, cast iron, three V's",
+      "maker": "Generic",
+      "model": "Cast iron V-block 100 x 75 x 58 mm, 90 degree V's 40, 30 and 20 mm wide",
+      "type": "V-block",
+      "license": "CC-BY-4.0",
+      "attribution": "Made for this library by Billy Huddleston, drawn from the sizes makers publish",
+      "source": "https://www.obishi.co.jp/english/?p=466",
+      "settings": {
+        "kind": "Block",
+        "length": 75.0,
+        "simAsBlock": false,
+        "thickness": 58.0,
+        "width": 100.0
+      },
+      "thumbnail": "thumbnails/VBlock_100_Cast_3V.png"
+    },
+    {
+      "id": "VBlock_120_4x4-1-2x2-1-2",
+      "kind": "fixture",
+      "file": "fixtures/VBlock_120_4x4-1-2x2-1-2.FCStd",
+      "size": 14619,
+      "sha256": "5e4e1e1f349edb2846551af2502d0e2fcfeb927a7041bc337a20b6173d636b7d",
+      "label": "V-block 4 x 4-1/2 x 2-1/2 in., 120 degree V",
+      "maker": "Generic",
+      "model": "V-block 4 x 4-1/2 x 2-1/2 in., 120 degree V, 7 in. round",
+      "type": "V-block",
+      "license": "CC-BY-4.0",
+      "attribution": "Made for this library by Billy Huddleston, drawn from the sizes makers publish",
+      "source": "https://www.mcmaster.com/products/v-groove-blocks",
+      "settings": {
+        "kind": "Block",
+        "length": 114.3,
+        "simAsBlock": false,
+        "thickness": 63.5,
+        "width": 101.6
+      },
+      "thumbnail": "thumbnails/VBlock_120_4x4-1-2x2-1-2.png"
+    },
+    {
+      "id": "VBlock_2x3x2-1-2_Deep",
+      "kind": "fixture",
+      "file": "fixtures/VBlock_2x3x2-1-2_Deep.FCStd",
+      "size": 17706,
+      "sha256": "7e362886a0efdf21fe5d4081c1ed149eaddf2bc0849ccf76efc34d6fda3ccdc9",
+      "label": "V-block 2 x 3 x 2-1/2 in., deep V for square stock",
+      "maker": "Generic",
+      "model": "V-block 2 x 3 x 2-1/2 in., deep 90 degree V: 1-7/16 in. square, 2 in. round",
+      "type": "V-block",
+      "license": "CC-BY-4.0",
+      "attribution": "Made for this library by Billy Huddleston, drawn from the sizes makers publish",
+      "source": "https://origin-www.starrett.com/metrology/product-detail/568C",
+      "settings": {
+        "kind": "Block",
+        "length": 76.2,
+        "simAsBlock": false,
+        "thickness": 50.8,
+        "width": 63.5
+      },
+      "thumbnail": "thumbnails/VBlock_2x3x2-1-2_Deep.png"
     }
   ]
 }
